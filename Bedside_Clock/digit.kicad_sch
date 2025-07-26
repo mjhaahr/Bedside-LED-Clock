@@ -1,0 +1,5522 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "41b68b36-7e2a-4b7b-b336-bd594859ebc6")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Graphic:SYM_Arrow_Small"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#SYM"
+				(at 0 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "SYM_Arrow_Small"
+				(at 0.254 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Filled arrow, 160mil"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "symbol arrow"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SYM_Arrow_Small_0_1"
+				(polyline
+					(pts
+						(xy 1.524 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 0.762 -0.508) (xy 0.762 0.508) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED:APA102"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "APA102"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_RGB_5050-6"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED addressable 8bit pwm 5bit greyscale"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*RGB*5050*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "APA102_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "APA102_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "APA102_1_1"
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "DI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "CI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "DO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "CO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 63.5 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1764404c-de11-40ca-bc44-6efa097b8eaf")
+	)
+	(junction
+		(at 82.55 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e4339b6-8fec-4960-8a94-000f17709b8b")
+	)
+	(junction
+		(at 63.5 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fcd7d83-6eb5-4bf3-b0f8-a5ea35896911")
+	)
+	(junction
+		(at 139.7 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34867286-9533-402e-b26b-8f7232c09385")
+	)
+	(junction
+		(at 44.45 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "390aef7d-2b6e-4cb1-b049-b938d419d027")
+	)
+	(junction
+		(at 101.6 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45ad5c86-c798-4312-8cf0-62826ff4c4e4")
+	)
+	(junction
+		(at 139.7 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48deeafa-0e31-4ba2-96b7-67a9a91537c3")
+	)
+	(junction
+		(at 82.55 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bb2f9dd-6e37-43a5-8cdb-7a2af07df0ea")
+	)
+	(junction
+		(at 120.65 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "555c902d-ff2e-480f-ba74-fee0a8aea36c")
+	)
+	(junction
+		(at 101.6 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5695531f-d262-4c1d-93ed-560f1f85b838")
+	)
+	(junction
+		(at 63.5 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c0ae25e-df78-47b1-84a9-c8e5ae3602dd")
+	)
+	(junction
+		(at 101.6 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "606e9150-445e-45ef-a9df-07a4ac623e3f")
+	)
+	(junction
+		(at 44.45 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60a9c9ef-6ff0-465e-ad18-eb9783b10629")
+	)
+	(junction
+		(at 120.65 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "667fc673-2e77-4a65-8532-1eeebec6d1ac")
+	)
+	(junction
+		(at 101.6 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a2d7b74-2cee-4816-ac4b-aca673244482")
+	)
+	(junction
+		(at 139.7 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e5e8b8e-1028-4556-8f58-045122582b4c")
+	)
+	(junction
+		(at 139.7 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "845dd5e8-1fd4-4524-bfbc-4198bb4bb7e9")
+	)
+	(junction
+		(at 82.55 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "854a013c-172b-4b78-a9c2-feff6ac90f1b")
+	)
+	(junction
+		(at 139.7 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "896642c9-d7dc-4819-b7ef-5e1aa4da9543")
+	)
+	(junction
+		(at 44.45 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a13ac2d-6ab8-439b-a08a-0a94454bc329")
+	)
+	(junction
+		(at 120.65 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a277fa1-e1b6-44ca-9b49-ff13f65390f6")
+	)
+	(junction
+		(at 63.5 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b75655c-37be-489c-8521-01bb6c3c8763")
+	)
+	(junction
+		(at 120.65 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91cd644e-6991-4cd6-be96-839d59f452cf")
+	)
+	(junction
+		(at 120.65 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d4070ad-dd6c-4984-8ed5-c67ebbbfc8e4")
+	)
+	(junction
+		(at 63.5 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0502a5d-5394-4573-8cc0-979042df3b85")
+	)
+	(junction
+		(at 120.65 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8f373f2-e38c-4816-bb2d-77c1cbddd7ad")
+	)
+	(junction
+		(at 82.55 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba4aa00b-5846-433c-9937-608f8957e28c")
+	)
+	(junction
+		(at 63.5 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c48e3d34-d83b-496b-b2ff-b9d385a3ce8f")
+	)
+	(junction
+		(at 82.55 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd164ed0-c08e-488f-beb4-2be247d78710")
+	)
+	(junction
+		(at 101.6 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d79650ca-a3a4-4f37-b1a6-de03dedab83b")
+	)
+	(junction
+		(at 101.6 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3904df5-a65f-42e3-a8be-0993df401719")
+	)
+	(junction
+		(at 139.7 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5232042-e0bd-479a-ab3e-eeaddc0df27d")
+	)
+	(junction
+		(at 82.55 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6172fff-c573-4398-bebe-6fa7927a70f6")
+	)
+	(junction
+		(at 44.45 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb48d212-f946-45a0-94e7-3855a8f862b6")
+	)
+	(junction
+		(at 44.45 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee906a52-b84c-4970-8334-8ceaf6e92f57")
+	)
+	(junction
+		(at 44.45 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2a2f1cd-fa76-4bde-a9bc-dd650b162fa0")
+	)
+	(wire
+		(pts
+			(xy 71.12 43.18) (xy 74.93 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03901eb6-c62a-4ffe-b2c1-e45e1bbd1ec4")
+	)
+	(wire
+		(pts
+			(xy 139.7 132.08) (xy 139.7 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0415f948-45d8-46c1-a579-562dc2eff805")
+	)
+	(wire
+		(pts
+			(xy 166.37 43.18) (xy 171.45 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ace2523-3d95-474d-a31c-53d8d9dfd007")
+	)
+	(wire
+		(pts
+			(xy 93.98 88.9) (xy 90.17 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bf5d15c-8620-4e90-a740-ea01d4881763")
+	)
+	(wire
+		(pts
+			(xy 158.75 29.21) (xy 139.7 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f4d88c8-0041-445b-aaa4-35a319dc2403")
+	)
+	(wire
+		(pts
+			(xy 147.32 43.18) (xy 151.13 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11317a4f-9a72-440d-bb4d-b117aa958358")
+	)
+	(wire
+		(pts
+			(xy 34.29 88.9) (xy 34.29 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11943a2a-bad7-4fb2-a83c-76163014ea24")
+	)
+	(wire
+		(pts
+			(xy 109.22 137.16) (xy 113.03 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13cb1728-91e6-480d-b492-c8c4c4825c47")
+	)
+	(wire
+		(pts
+			(xy 55.88 91.44) (xy 52.07 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13e46bbd-aecb-4565-86b8-ac8d7941c723")
+	)
+	(wire
+		(pts
+			(xy 36.83 88.9) (xy 34.29 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "175dbb7a-3963-4f37-b56e-7319def6417d")
+	)
+	(wire
+		(pts
+			(xy 120.65 29.21) (xy 101.6 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d0fbf0-2994-4d9f-9ce4-04287696c577")
+	)
+	(wire
+		(pts
+			(xy 120.65 125.73) (xy 101.6 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1be41624-af63-4602-8a91-c822d888ef5e")
+	)
+	(wire
+		(pts
+			(xy 128.27 137.16) (xy 132.08 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c95cb7e-ad72-474e-850a-1c17170dd895")
+	)
+	(wire
+		(pts
+			(xy 90.17 137.16) (xy 93.98 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "200fad31-964a-44f4-833c-0cf408a0fee4")
+	)
+	(wire
+		(pts
+			(xy 109.22 40.64) (xy 113.03 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2070197f-1918-4ff4-9c88-37695ee799a0")
+	)
+	(wire
+		(pts
+			(xy 139.7 147.32) (xy 139.7 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "213be687-b348-418d-a287-1a98f339bf41")
+	)
+	(wire
+		(pts
+			(xy 82.55 35.56) (xy 82.55 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21c307b4-0c5c-4db7-936c-9ffcb34f1f9d")
+	)
+	(wire
+		(pts
+			(xy 44.45 105.41) (xy 44.45 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b5c718-0c64-486c-96b0-2a5b70b4546e")
+	)
+	(wire
+		(pts
+			(xy 166.37 40.64) (xy 168.91 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "264d406f-f6f0-4025-bc93-009675140db4")
+	)
+	(wire
+		(pts
+			(xy 44.45 57.15) (xy 63.5 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a421cde-03d6-4fbe-ba10-fe105e73f088")
+	)
+	(polyline
+		(pts
+			(xy 236.22 43.18) (xy 236.22 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3226f2ef-6153-43e0-88a7-0fa3e683a1cd")
+	)
+	(wire
+		(pts
+			(xy 109.22 43.18) (xy 113.03 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "330fa7e3-ef6f-4a2f-8708-6bd1cd1db5ca")
+	)
+	(wire
+		(pts
+			(xy 63.5 125.73) (xy 44.45 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3386d494-c24c-490e-a388-78c1507b7913")
+	)
+	(wire
+		(pts
+			(xy 90.17 139.7) (xy 93.98 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d28369-8699-4cfd-ae22-d77d2f5bb050")
+	)
+	(wire
+		(pts
+			(xy 34.29 40.64) (xy 36.83 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3483e5b0-9580-4a3e-8568-c18dfbfbaa10")
+	)
+	(wire
+		(pts
+			(xy 63.5 153.67) (xy 82.55 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35053f83-7cab-4454-ba26-3b2febec14eb")
+	)
+	(wire
+		(pts
+			(xy 82.55 105.41) (xy 63.5 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "370940b2-5b12-4f43-8cea-fda713eb8cd7")
+	)
+	(wire
+		(pts
+			(xy 93.98 91.44) (xy 90.17 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38eec846-d3ad-4cb7-9693-98c8ef387e88")
+	)
+	(wire
+		(pts
+			(xy 63.5 99.06) (xy 63.5 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b313402-1ac2-47ea-a477-794c6ba113a1")
+	)
+	(wire
+		(pts
+			(xy 44.45 29.21) (xy 44.45 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b8ceb1d-c75b-446f-b38e-d9d60baa0490")
+	)
+	(wire
+		(pts
+			(xy 158.75 35.56) (xy 158.75 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4490b7cd-8740-4162-a8c9-d1fc9d1f14f3")
+	)
+	(wire
+		(pts
+			(xy 128.27 43.18) (xy 132.08 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44be3823-bdca-463a-be15-8029ad0dc0b9")
+	)
+	(wire
+		(pts
+			(xy 63.5 77.47) (xy 82.55 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47ccda8a-2979-48a6-ad03-b1f9a1952f24")
+	)
+	(wire
+		(pts
+			(xy 147.32 137.16) (xy 151.13 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "497a06f6-b9eb-4a78-bffa-b6cda317307d")
+	)
+	(wire
+		(pts
+			(xy 166.37 91.44) (xy 171.45 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b9a3e8-2df8-4d0f-ac13-48bdf2389119")
+	)
+	(wire
+		(pts
+			(xy 82.55 125.73) (xy 63.5 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c34b9b-665c-48cc-89f6-6d4497f87121")
+	)
+	(wire
+		(pts
+			(xy 171.45 43.18) (xy 171.45 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49dd14b8-d9c9-4f8b-a8c3-73c1cdafc50e")
+	)
+	(wire
+		(pts
+			(xy 82.55 57.15) (xy 101.6 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b58aa8e-84cd-4e1d-9021-8e895a4529cf")
+	)
+	(wire
+		(pts
+			(xy 82.55 132.08) (xy 82.55 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bcd5c4a-d5e9-46df-8839-ce92abf439bf")
+	)
+	(wire
+		(pts
+			(xy 63.5 50.8) (xy 63.5 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e6eef60-6b2b-410c-b5b3-f7192ae7d97a")
+	)
+	(wire
+		(pts
+			(xy 120.65 77.47) (xy 139.7 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f059f67-1ccb-4b69-bcce-89b4eacddb01")
+	)
+	(wire
+		(pts
+			(xy 44.45 77.47) (xy 63.5 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50166412-7410-4445-80e8-5ca5c5c5002b")
+	)
+	(wire
+		(pts
+			(xy 132.08 88.9) (xy 128.27 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51930f11-5c63-4a3f-922e-c8e7b3253038")
+	)
+	(wire
+		(pts
+			(xy 166.37 137.16) (xy 168.91 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58ad2c41-a6ef-4aa7-aca3-83b3ee8e4819")
+	)
+	(wire
+		(pts
+			(xy 63.5 35.56) (xy 63.5 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a36b272-96f0-4b70-bb34-67795e0a5d8e")
+	)
+	(wire
+		(pts
+			(xy 158.75 105.41) (xy 139.7 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a3d5ce0-d0be-4330-b763-f69fcb9f874a")
+	)
+	(wire
+		(pts
+			(xy 101.6 99.06) (xy 101.6 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be7c014-200c-45f8-93e0-2df5a711e947")
+	)
+	(wire
+		(pts
+			(xy 101.6 105.41) (xy 82.55 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c6a3bdd-f57e-4668-b548-438b0673076a")
+	)
+	(wire
+		(pts
+			(xy 74.93 91.44) (xy 71.12 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cfb2984-fcea-4e84-b1d7-a92062a73372")
+	)
+	(wire
+		(pts
+			(xy 82.55 83.82) (xy 82.55 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dca5c09-fc65-4e31-9c25-795870f233dd")
+	)
+	(wire
+		(pts
+			(xy 44.45 83.82) (xy 44.45 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "623ee3b1-7b32-4d46-9355-76fb58db5ff2")
+	)
+	(wire
+		(pts
+			(xy 63.5 105.41) (xy 44.45 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6279efd3-b2af-4ec8-ad16-800082cd0d47")
+	)
+	(wire
+		(pts
+			(xy 139.7 125.73) (xy 120.65 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "633dee4a-29d7-4d70-acf5-96d6eb6045ca")
+	)
+	(wire
+		(pts
+			(xy 63.5 147.32) (xy 63.5 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6516c531-e4aa-4322-9f31-0b4ae1d07563")
+	)
+	(wire
+		(pts
+			(xy 147.32 139.7) (xy 151.13 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66a4cfb3-f4c0-4f1e-82f5-e2546b1d714f")
+	)
+	(wire
+		(pts
+			(xy 71.12 137.16) (xy 74.93 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "694b2e8c-75eb-4ac6-9806-8a839402df10")
+	)
+	(wire
+		(pts
+			(xy 120.65 57.15) (xy 139.7 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab2ea8b-95d2-42ed-8c05-53aa4d6a062a")
+	)
+	(wire
+		(pts
+			(xy 71.12 139.7) (xy 74.93 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bfa51b9-9a95-4a8c-a21d-ddf1ff9d819a")
+	)
+	(wire
+		(pts
+			(xy 34.29 137.16) (xy 36.83 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa7921a-512d-42af-a4ac-9400a12a5b6a")
+	)
+	(wire
+		(pts
+			(xy 44.45 125.73) (xy 44.45 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "710de0c9-087f-457e-818e-e7bf02bcf26a")
+	)
+	(wire
+		(pts
+			(xy 101.6 29.21) (xy 82.55 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "732588c0-e52f-4228-90e1-d852e9f6196b")
+	)
+	(wire
+		(pts
+			(xy 74.93 88.9) (xy 71.12 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75e3a560-3728-4315-a3e5-1da39d93fc14")
+	)
+	(wire
+		(pts
+			(xy 44.45 57.15) (xy 44.45 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7869964c-dbfd-4de2-9c03-734f18e056f5")
+	)
+	(wire
+		(pts
+			(xy 120.65 105.41) (xy 101.6 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d128eb7-31e1-4334-9faf-7effb12598d3")
+	)
+	(wire
+		(pts
+			(xy 82.55 153.67) (xy 101.6 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d76f772-80ff-4a70-a32c-3cf7328a29a6")
+	)
+	(wire
+		(pts
+			(xy 31.75 91.44) (xy 31.75 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fe00c22-6837-4fa5-a555-3e69a9c5197f")
+	)
+	(wire
+		(pts
+			(xy 139.7 153.67) (xy 158.75 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8014f837-f61e-488b-afa6-cb3f75cae56c")
+	)
+	(wire
+		(pts
+			(xy 139.7 83.82) (xy 139.7 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81350480-e697-4b4e-bc0c-28598573188f")
+	)
+	(wire
+		(pts
+			(xy 158.75 132.08) (xy 158.75 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81408638-5ed3-457f-91f9-6e30b9b37d28")
+	)
+	(wire
+		(pts
+			(xy 168.91 88.9) (xy 166.37 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "818298b3-2186-45b1-869e-4ce60fdbddf1")
+	)
+	(wire
+		(pts
+			(xy 120.65 153.67) (xy 139.7 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "853605d0-823f-4a3e-9ac5-c7ee1418cd94")
+	)
+	(wire
+		(pts
+			(xy 101.6 35.56) (xy 101.6 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87a0787c-cde0-45af-a159-c1d85df86aa7")
+	)
+	(wire
+		(pts
+			(xy 101.6 57.15) (xy 120.65 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89415ad0-1717-424c-87a8-c98b210fd842")
+	)
+	(wire
+		(pts
+			(xy 120.65 99.06) (xy 120.65 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a92b1eb-8035-449d-a72b-6c7dc832af31")
+	)
+	(wire
+		(pts
+			(xy 63.5 29.21) (xy 44.45 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8acad24a-74bd-479b-96dc-81471b995d6f")
+	)
+	(wire
+		(pts
+			(xy 44.45 153.67) (xy 44.45 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e6d5664-3d3b-47e2-b08e-4dd2cef09ee6")
+	)
+	(wire
+		(pts
+			(xy 52.07 137.16) (xy 55.88 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e86d030-c8d5-4ce5-af49-cb566c89ce71")
+	)
+	(wire
+		(pts
+			(xy 82.55 147.32) (xy 82.55 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fcbf1d7-c041-4cd7-b68c-4c591ee36509")
+	)
+	(wire
+		(pts
+			(xy 90.17 40.64) (xy 93.98 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9145dd86-d49b-4646-b256-2fda909287ea")
+	)
+	(wire
+		(pts
+			(xy 101.6 77.47) (xy 120.65 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ea6af1-a6c0-4f26-a8d0-6b5564ac5054")
+	)
+	(wire
+		(pts
+			(xy 139.7 105.41) (xy 120.65 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94317cff-bdbc-4465-90b8-ff3974ee7aa5")
+	)
+	(wire
+		(pts
+			(xy 36.83 91.44) (xy 31.75 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95d7a2a8-8a4d-47ad-908c-4d737dd0fd70")
+	)
+	(wire
+		(pts
+			(xy 101.6 153.67) (xy 120.65 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "967ef024-fbd7-4f1c-bad6-15ac371c391a")
+	)
+	(wire
+		(pts
+			(xy 120.65 50.8) (xy 120.65 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98024848-3f47-4891-968b-fa66c3d240cb")
+	)
+	(polyline
+		(pts
+			(xy 224.79 41.91) (xy 234.95 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "983f3ca1-d53b-4bec-9b4c-985e67fa25a2")
+	)
+	(wire
+		(pts
+			(xy 52.07 40.64) (xy 55.88 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a0283b8-c203-4707-92d1-cafab8414508")
+	)
+	(polyline
+		(pts
+			(xy 224.79 54.61) (xy 234.95 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a94f7df-93f3-4b56-bbd3-5fa4299af31a")
+	)
+	(wire
+		(pts
+			(xy 34.29 43.18) (xy 36.83 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b9a827a-b29b-45a7-a903-3c9491eb27cf")
+	)
+	(wire
+		(pts
+			(xy 113.03 91.44) (xy 109.22 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bf66c72-bed6-495c-9b38-6758be939358")
+	)
+	(wire
+		(pts
+			(xy 44.45 123.19) (xy 44.45 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d9581a4-403c-4b2b-9dab-5ab1b0c5ac91")
+	)
+	(wire
+		(pts
+			(xy 44.45 147.32) (xy 44.45 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f111966-abbf-4ef5-af38-87f8e6f0dad0")
+	)
+	(wire
+		(pts
+			(xy 63.5 83.82) (xy 63.5 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fb410d1-f6d9-404d-a8f0-84e91eec45fb")
+	)
+	(wire
+		(pts
+			(xy 63.5 132.08) (xy 63.5 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3c7d4ec-d0b7-4e2a-8299-e870d2438d96")
+	)
+	(wire
+		(pts
+			(xy 82.55 99.06) (xy 82.55 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a48ab1d5-5d84-45d3-b42b-02035b73b7cf")
+	)
+	(wire
+		(pts
+			(xy 120.65 35.56) (xy 120.65 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a926e5bf-73f2-46a1-81ab-f7f89f09e73c")
+	)
+	(wire
+		(pts
+			(xy 82.55 77.47) (xy 101.6 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab9f9603-5f54-4fff-b4f0-c7c4178bf714")
+	)
+	(wire
+		(pts
+			(xy 101.6 50.8) (xy 101.6 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abf90a72-c1f9-444d-a501-453985f077dd")
+	)
+	(wire
+		(pts
+			(xy 71.12 40.64) (xy 74.93 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed2f848-3698-4e4d-8bf6-21710b50bf58")
+	)
+	(wire
+		(pts
+			(xy 120.65 132.08) (xy 120.65 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa0a86e-b721-49e3-b7b0-ab44bc346f0c")
+	)
+	(wire
+		(pts
+			(xy 55.88 88.9) (xy 52.07 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afd019af-4a87-4768-abbe-d69f2005476d")
+	)
+	(wire
+		(pts
+			(xy 120.65 147.32) (xy 120.65 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b369b1cc-ec48-4175-a67c-33d64b7fe2ea")
+	)
+	(wire
+		(pts
+			(xy 120.65 83.82) (xy 120.65 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5e8b6f1-ef68-426e-8896-efa47033ab09")
+	)
+	(wire
+		(pts
+			(xy 82.55 50.8) (xy 82.55 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c5a045-2734-42f8-a5ef-49e46b54f232")
+	)
+	(wire
+		(pts
+			(xy 101.6 125.73) (xy 82.55 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b993e2fd-aa5a-4a2a-9ad3-13eac700a691")
+	)
+	(wire
+		(pts
+			(xy 132.08 91.44) (xy 128.27 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e6a9c6-1a3e-479d-9280-761665ec5fd9")
+	)
+	(wire
+		(pts
+			(xy 158.75 153.67) (xy 158.75 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc2ea1fe-f548-41a4-9e33-34e8546b1bb1")
+	)
+	(wire
+		(pts
+			(xy 52.07 139.7) (xy 55.88 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd5562bb-4571-4d68-9e9a-47609abfcc37")
+	)
+	(wire
+		(pts
+			(xy 101.6 147.32) (xy 101.6 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd85927d-2237-4035-a8c0-9b2c12a59590")
+	)
+	(wire
+		(pts
+			(xy 128.27 139.7) (xy 132.08 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf66a636-7291-4ef0-9c51-2c6bb1dd0f73")
+	)
+	(wire
+		(pts
+			(xy 158.75 57.15) (xy 158.75 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfcd799a-ba89-4053-aea5-cb2d2e8a6d32")
+	)
+	(wire
+		(pts
+			(xy 63.5 57.15) (xy 82.55 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c09f7dff-c9d6-4632-bbd1-3e55437e5ff3")
+	)
+	(polyline
+		(pts
+			(xy 223.52 30.48) (xy 223.52 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c10f7632-e53a-4a78-bcde-5bd1f092d5d8")
+	)
+	(wire
+		(pts
+			(xy 158.75 125.73) (xy 139.7 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62064ad-e4c3-4b80-a8ad-bcff4675c503")
+	)
+	(wire
+		(pts
+			(xy 166.37 139.7) (xy 168.91 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d460a4a7-2298-4dd0-897f-c1c986a57d07")
+	)
+	(polyline
+		(pts
+			(xy 224.79 29.21) (xy 234.95 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d82c8c0b-42e1-4927-9e19-c79fe6a6e859")
+	)
+	(wire
+		(pts
+			(xy 139.7 29.21) (xy 120.65 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc4f566b-561c-421f-9320-eb226033d6da")
+	)
+	(wire
+		(pts
+			(xy 139.7 50.8) (xy 139.7 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc61bbe0-b08b-40d2-a67f-bc9410e8de4b")
+	)
+	(wire
+		(pts
+			(xy 44.45 50.8) (xy 44.45 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd80167b-6ef4-4ff5-85a0-7e39b3b3e6e1")
+	)
+	(wire
+		(pts
+			(xy 139.7 77.47) (xy 158.75 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1a2099-a896-420e-8bbb-9c673c79ded5")
+	)
+	(wire
+		(pts
+			(xy 139.7 99.06) (xy 139.7 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e03a6804-8ee4-4ad4-889b-6248172e9156")
+	)
+	(wire
+		(pts
+			(xy 113.03 88.9) (xy 109.22 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e22d2ec9-a062-4b1b-9924-92b1144222fc")
+	)
+	(wire
+		(pts
+			(xy 36.83 139.7) (xy 31.75 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3698587-0a1f-4d45-a19d-026776a26a37")
+	)
+	(wire
+		(pts
+			(xy 101.6 132.08) (xy 101.6 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e45d0ad9-eec3-4fa3-8b2e-69245d2e2391")
+	)
+	(wire
+		(pts
+			(xy 101.6 83.82) (xy 101.6 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e665c111-05e9-4d84-8bf8-391bd72e78aa")
+	)
+	(wire
+		(pts
+			(xy 158.75 77.47) (xy 158.75 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e93b1ba1-72de-4f6e-84fa-fdf357f0f7af")
+	)
+	(wire
+		(pts
+			(xy 109.22 139.7) (xy 113.03 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf34522-2bf2-4782-8539-dfad87427961")
+	)
+	(wire
+		(pts
+			(xy 139.7 57.15) (xy 158.75 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb53c409-4fe3-4a95-9a95-1f5df663fdca")
+	)
+	(wire
+		(pts
+			(xy 90.17 43.18) (xy 93.98 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec4fdea8-f6d5-499f-b640-9fcb9cb37bf6")
+	)
+	(wire
+		(pts
+			(xy 139.7 35.56) (xy 139.7 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed2f233f-5874-4cd1-8851-8579bccf2e00")
+	)
+	(wire
+		(pts
+			(xy 151.13 91.44) (xy 147.32 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee828ee4-d401-4a22-8658-1071693ac939")
+	)
+	(wire
+		(pts
+			(xy 52.07 43.18) (xy 55.88 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f47db69c-0b05-4934-9842-39ee14715da9")
+	)
+	(wire
+		(pts
+			(xy 44.45 74.93) (xy 44.45 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6f62b77-4067-45ba-820b-bfa0c88164b4")
+	)
+	(wire
+		(pts
+			(xy 158.75 99.06) (xy 158.75 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f76468a7-f4dc-4aed-b410-41c9b7c702e4")
+	)
+	(wire
+		(pts
+			(xy 44.45 26.67) (xy 44.45 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8933f3d-9614-405d-933b-0c2d5bb66d94")
+	)
+	(wire
+		(pts
+			(xy 151.13 88.9) (xy 147.32 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8bf6801-1c89-4f19-ac23-c3f7cec7b203")
+	)
+	(wire
+		(pts
+			(xy 147.32 40.64) (xy 151.13 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f93d86ed-a4af-4980-9cc9-7f68480ada73")
+	)
+	(wire
+		(pts
+			(xy 82.55 29.21) (xy 63.5 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b54fe5-3b69-4cb9-8fef-f03eda6dd6a3")
+	)
+	(polyline
+		(pts
+			(xy 223.52 43.18) (xy 223.52 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fadc914b-9339-4243-9032-7040745e3ae0")
+	)
+	(wire
+		(pts
+			(xy 168.91 40.64) (xy 168.91 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbde0b4b-22d8-4775-a661-72a6efad8eb8")
+	)
+	(wire
+		(pts
+			(xy 128.27 40.64) (xy 132.08 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc21a914-fadb-4a0d-bbfb-8b97b5bb7bb8")
+	)
+	(wire
+		(pts
+			(xy 44.45 153.67) (xy 63.5 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc36bb5f-ed1b-4d09-85f0-45ba74933fc9")
+	)
+	(wire
+		(pts
+			(xy 44.45 105.41) (xy 44.45 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe23ad24-5820-43fb-95b6-b239f3ebf5eb")
+	)
+	(polyline
+		(pts
+			(xy 236.22 30.48) (xy 236.22 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffb03f7d-3ac3-41b1-b4d0-60c42fa4c84d")
+	)
+	(hierarchical_label "CO"
+		(shape output)
+		(at 168.91 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ffe72a3-9efc-436c-b7ab-78f3884476cc")
+	)
+	(hierarchical_label "DI"
+		(shape input)
+		(at 34.29 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c24c307-018f-40bc-b210-6e9090c74f52")
+	)
+	(hierarchical_label "DO"
+		(shape output)
+		(at 168.91 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dcbc68f2-b130-48fc-a091-ae2c6cd7109a")
+	)
+	(hierarchical_label "CI"
+		(shape input)
+		(at 34.29 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4ce3e69-d32f-4f1e-8f54-c46eb6e9bc5d")
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_Small")
+		(at 229.87 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0041aac7-b881-4554-8f61-29b815250a70")
+		(property "Reference" "#SYM"
+			(at 229.87 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Arrow_Small"
+			(at 229.616 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Filled arrow, 160mil"
+			(at 229.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 229.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "#SYM23")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "#SYM5")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "#SYM50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102")
+		(at 158.75 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09191a90-8124-416f-b81a-f1836f254040")
+		(property "Reference" "D8"
+			(at 156.6067 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 156.6067 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+			(at 156.21 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 158.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "990caf2b-ac26-48d6-8197-2136257d5669")
+		)
+		(pin "1"
+			(uuid "28dc5bb2-093a-4790-897f-615f32a4c1e7")
+		)
+		(pin "2"
+			(uuid "037087cc-94d7-469a-b85f-a17bb76ca31c")
+		)
+		(pin "4"
+			(uuid "e0371e17-a55b-45d8-9a18-678c89f99890")
+		)
+		(pin "3"
+			(uuid "204b1e34-feae-4fbf-a801-b5a10a50ab7a")
+		)
+		(pin "6"
+			(uuid "c50b7869-bc9a-40b1-bd92-d52ecacf336e")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "D64")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "D8")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "D41")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "D127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 44.45 74.93 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "093210fa-2454-47fe-8307-8356d3c55dd7")
+		(property "Reference" "#PWR03"
+			(at 44.45 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 44.45 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 44.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e560b4d0-04a6-466b-93ea-46f6cba84820")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "#PWR017")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "#PWR03")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "#PWR011")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102")
+		(at 44.45 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a609494-027a-415d-8bb3-691c35d3c754")
+		(property "Reference" "D1"
+			(at 46.5933 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 46.5933 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+			(at 46.99 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 44.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "0efb63f6-16d7-4d90-94d3-eac6b9cc84e6")
+		)
+		(pin "1"
+			(uuid "aab2c344-18f6-4e53-b88b-d5471a46a353")
+		)
+		(pin "2"
+			(uuid "7cca3e64-3f3b-4cee-bef8-cdb75b446d33")
+		)
+		(pin "4"
+			(uuid "1b1341e7-9ff9-43e5-b865-70535d7b1f80")
+		)
+		(pin "3"
+			(uuid "e49671d0-ee13-46ce-b451-dd4ff6ceed48")
+		)
+		(pin "6"
+			(uuid "e95d63ca-3dcd-4191-9ad6-39931d698e47")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "D45")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "D1")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "D22")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "D108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102")
+		(at 82.55 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ef90e8d-21ad-4c56-bf52-03b6d1d5c518")
+		(property "Reference" "D17"
+			(at 84.6933 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 84.6933 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+			(at 85.09 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 82.55 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "ac2dcf0d-1e0c-4134-a476-6a06f197101c")
+		)
+		(pin "1"
+			(uuid "89ee7431-449b-4c28-b5aa-d1b4a9dac060")
+		)
+		(pin "2"
+			(uuid "d504c6f7-81f9-498d-b6d1-6b3b00adfa6a")
+		)
+		(pin "4"
+			(uuid "bbe15377-bd86-4345-9816-28db83efa95b")
+		)
+		(pin "3"
+			(uuid "e3df09ea-4c35-47bc-94c3-b666cc424336")
+		)
+		(pin "6"
+			(uuid "957da9c1-acdb-4c07-8260-cb9f627f9344")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "D53")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "D17")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "D30")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "D116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_Small")
+		(at 220.98 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "116e2002-4180-425f-a251-8495964525c2")
+		(property "Reference" "#SYM"
+			(at 220.98 40.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Arrow_Small"
+			(at 221.234 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Filled arrow, 160mil"
+			(at 220.98 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 220.98 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "#SYM19")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "#SYM1")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "#SYM46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102")
+		(at 101.6 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c508c12-e2b0-4dfb-8a5f-77c8b05081b5")
+		(property "Reference" "D11"
+			(at 99.4567 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 99.4567 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+			(at 99.06 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "cbb56cb7-f8ca-4d07-88c1-e619113a01e7")
+		)
+		(pin "1"
+			(uuid "e3a37c75-2005-44f9-9994-db3ada7dc218")
+		)
+		(pin "2"
+			(uuid "f7575968-a973-4fa7-8b6b-aa22e9a194b6")
+		)
+		(pin "4"
+			(uuid "9bb5d851-409b-4d21-9541-efe92ef73e7a")
+		)
+		(pin "3"
+			(uuid "6d45ba5c-c804-4598-896f-83a243adf086")
+		)
+		(pin "6"
+			(uuid "e159bebb-6ebf-4d00-ba32-e4ac5e1e84b2")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "D55")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "D11")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "D32")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "D118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102")
+		(at 82.55 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ca030a7-6c4b-4535-ac60-6114b64e92a3")
+		(property "Reference" "D3"
+			(at 84.6933 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 84.6933 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+			(at 85.09 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "a3478e23-ea51-4b8c-893c-41760753fd22")
+		)
+		(pin "1"
+			(uuid "25debcba-3b6b-4028-b1ff-016b1d6381a2")
+		)
+		(pin "2"
+			(uuid "6caef677-e6b3-491a-a5e5-a94b64dc30c4")
+		)
+		(pin "4"
+			(uuid "870f28a5-bdd2-4b57-b8ee-075bf514058b")
+		)
+		(pin "3"
+			(uuid "43540222-27ef-4dad-815e-fe0d239e954f")
+		)
+		(pin "6"
+			(uuid "f9bf96ca-e8c4-4a8c-9478-24d7a4469285")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "D51")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "D3")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "D28")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "D114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102")
+		(at 120.65 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d0f0fca-9cf6-4227-8a68-4085d743fdbe")
+		(property "Reference" "D5"
+			(at 122.7933 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 122.7933 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+			(at 123.19 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 120.65 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "4a9534da-98a4-478a-a1a2-8b11c870d7d8")
+		)
+		(pin "1"
+			(uuid "a86ddb5e-71c6-4076-b2b3-05c5bb6a766a")
+		)
+		(pin "2"
+			(uuid "f9413a40-5f6d-4afd-afcb-94fe465a1fe2")
+		)
+		(pin "4"
+			(uuid "745d3a39-970f-4e85-a292-4afcb708646f")
+		)
+		(pin "3"
+			(uuid "585e2a6e-5fca-41e3-92ee-4fdd3e291009")
+		)
+		(pin "6"
+			(uuid "bc0b91fe-dad8-4033-868d-dd77dd51bb1a")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "D57")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "D5")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "D34")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "D120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102")
+		(at 101.6 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32308312-79e1-4e11-a132-823e0a7e6f42")
+		(property "Reference" "D18"
+			(at 103.7433 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 103.7433 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+			(at 104.14 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 101.6 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "eae3abdb-e08f-40ec-af59-2f0565c09caa")
+		)
+		(pin "1"
+			(uuid "c37f2128-f614-4c05-9434-fe28df524c76")
+		)
+		(pin "2"
+			(uuid "4d078ad3-fc1e-4b46-aecb-9bd2b3599ef7")
+		)
+		(pin "4"
+			(uuid "6ecc460a-22ef-4ed8-9467-aee9fe94d8a4")
+		)
+		(pin "3"
+			(uuid "8d33b276-31c9-4fc8-8575-8196767c60a3")
+		)
+		(pin "6"
+			(uuid "23932d45-6928-4e5b-b0bf-b18acfad6708")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "D56")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "D18")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "D33")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "D119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_Small")
+		(at 223.52 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36304f9a-121b-47da-819c-fc7c8c38a706")
+		(property "Reference" "#SYM"
+			(at 221.996 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Arrow_Small"
+			(at 224.79 35.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Filled arrow, 160mil"
+			(at 223.52 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 223.52 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "#SYM20")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "#SYM2")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "#SYM47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102")
+		(at 63.5 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4252a727-d84f-46de-9660-785ad823489e")
+		(property "Reference" "D16"
+			(at 65.6433 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 65.6433 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+			(at 66.04 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 63.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "42b6257f-87c6-4599-8e8c-2857127f58b4")
+		)
+		(pin "1"
+			(uuid "da8a8aab-22c6-439d-a2a1-323b4071a0ba")
+		)
+		(pin "2"
+			(uuid "b94c8785-8053-4fd7-a501-72195ff4167f")
+		)
+		(pin "4"
+			(uuid "cd707874-ae5b-45d4-97cf-cbf3cd8215de")
+		)
+		(pin "3"
+			(uuid "977860c0-8032-4121-835e-892b94259205")
+		)
+		(pin "6"
+			(uuid "5da54634-1d17-40a8-b35f-3e0f8b6403aa")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "D50")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "D16")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "D27")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "D113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_Small")
+		(at 236.22 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48591a3d-48b1-4c1c-921d-f47fb15bc5b8")
+		(property "Reference" "#SYM"
+			(at 237.744 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Arrow_Small"
+			(at 234.95 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Filled arrow, 160mil"
+			(at 236.22 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 236.22 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "#SYM25")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "#SYM7")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "#SYM52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102")
+		(at 139.7 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4babb265-9ef5-4fff-a16a-9cef8f6bed90")
+		(property "Reference" "D20"
+			(at 141.8433 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 141.8433 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+			(at 142.24 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 139.7 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "1c0a99d0-4013-4d60-b15e-0b62369bc8a6")
+		)
+		(pin "1"
+			(uuid "55ead9ae-f54a-4251-a05f-90994416a077")
+		)
+		(pin "2"
+			(uuid "18fb9b7f-9e11-4c0d-bba6-02685e66b992")
+		)
+		(pin "4"
+			(uuid "051930b8-6127-4f97-a5f1-9b8eedeb6182")
+		)
+		(pin "3"
+			(uuid "5a213006-b48e-4323-80e1-c1daebbdf71e")
+		)
+		(pin "6"
+			(uuid "5e0c30cf-fe83-4028-a36a-757b381e46bf")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "D62")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "D20")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "D39")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "D125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 44.45 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ccdda3b-8c21-401b-91aa-6553656b934d")
+		(property "Reference" "#PWR"
+			(at 44.45 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 44.45 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 44.45 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8fffede-33cb-4410-973f-9f31583f223b")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "#PWR015")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102")
+		(at 82.55 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d03e039-49e0-4280-bfb5-a44eec030003")
+		(property "Reference" "D12"
+			(at 80.4067 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 80.4067 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+			(at 80.01 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 82.55 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "176e91ab-8629-4e59-92dc-a875d68f6cbd")
+		)
+		(pin "1"
+			(uuid "4e95007f-32e4-4b9b-ba32-9905319be599")
+		)
+		(pin "2"
+			(uuid "2fed4243-8916-4084-b097-f880e4750957")
+		)
+		(pin "4"
+			(uuid "6eb139a1-3d2e-4e22-ba2d-73c0188da96c")
+		)
+		(pin "3"
+			(uuid "4fba407f-59e4-4734-83c0-a1fc2454ee07")
+		)
+		(pin "6"
+			(uuid "ac2b62b1-a5b4-4f5c-9b44-248aff9d132e")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "D52")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "D12")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "D29")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "D115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_Small")
+		(at 229.87 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d6cc7c9-5bf5-4dce-9913-b1eefca16e12")
+		(property "Reference" "#SYM"
+			(at 229.87 27.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Arrow_Small"
+			(at 230.124 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Filled arrow, 160mil"
+			(at 229.87 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 229.87 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "#SYM22")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "#SYM4")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "#SYM49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102")
+		(at 158.75 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65b15cb7-3e9b-4101-8e66-7a665afa040a")
+		(property "Reference" "D7"
+			(at 160.8933 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 160.8933 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+			(at 161.29 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 158.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "f1ffd5f5-877b-4b48-921c-f45530cb670b")
+		)
+		(pin "1"
+			(uuid "894b0b4c-d68c-4a17-87c1-4b2fbe63a67d")
+		)
+		(pin "2"
+			(uuid "16ae0476-9822-419c-a263-8493112abd61")
+		)
+		(pin "4"
+			(uuid "a1c15de5-3e00-4081-8d93-5b707457ca58")
+		)
+		(pin "3"
+			(uuid "2de88636-947c-4e59-87e5-45c32e0c91a2")
+		)
+		(pin "6"
+			(uuid "2559002a-f573-4f70-9889-7c41d49e2e65")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "D63")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "D7")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "D40")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "D126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_Small")
+		(at 238.76 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6940f674-0ec9-43e3-a850-27a2135322a3")
+		(property "Reference" "#SYM"
+			(at 238.76 40.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Arrow_Small"
+			(at 239.014 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Filled arrow, 160mil"
+			(at 238.76 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 238.76 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "#SYM27")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "#SYM9")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "#SYM54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102")
+		(at 44.45 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "746ea37c-51c8-4900-b0f6-bfcc3948b185")
+		(property "Reference" "D15"
+			(at 46.5933 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 46.5933 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+			(at 46.99 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 44.45 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "2d26c6de-662a-4d87-a976-2359013dafe1")
+		)
+		(pin "1"
+			(uuid "97b169c2-435e-4331-8955-9194469738b9")
+		)
+		(pin "2"
+			(uuid "d224370e-271b-41f8-b449-6e02637c9220")
+		)
+		(pin "4"
+			(uuid "3e63b341-f81c-4a1e-b0f5-10c6c452257a")
+		)
+		(pin "3"
+			(uuid "f29aae7d-1e83-487c-9ee4-933a3ed91394")
+		)
+		(pin "6"
+			(uuid "5b75d647-7249-4dd8-a6eb-c43ec3d83798")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "D47")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "D15")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "D24")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "D110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102")
+		(at 101.6 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "767e3e6e-fc51-4d3e-a84b-b505b6d140d0")
+		(property "Reference" "D4"
+			(at 103.7433 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 103.7433 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+			(at 104.14 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 101.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "8fa15bf0-7a0d-498c-ad59-f37fd21767d5")
+		)
+		(pin "1"
+			(uuid "1d426b14-cfd8-4437-8b63-14e7e2efc75c")
+		)
+		(pin "2"
+			(uuid "a19e701c-7300-4008-8701-a6761f43a63b")
+		)
+		(pin "4"
+			(uuid "40eac6a5-5821-4b16-8cb9-fecf8dab4660")
+		)
+		(pin "3"
+			(uuid "626b4de3-fcc4-44f0-b00e-970e6b03a94e")
+		)
+		(pin "6"
+			(uuid "44b49266-2000-4f2a-84de-526e7662f7e6")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "D54")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "D4")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "D31")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "D117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102")
+		(at 158.75 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80040525-67d6-4d3e-86a9-792e4fa1fb7b")
+		(property "Reference" "D21"
+			(at 160.8933 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 160.8933 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+			(at 161.29 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 158.75 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "efcfbab9-6946-4acd-b5b1-fd2c65066b39")
+		)
+		(pin "1"
+			(uuid "aa5ded63-11f8-492a-be6a-959e254f24a6")
+		)
+		(pin "2"
+			(uuid "9ce349a0-290d-45e0-8b79-5414540f6531")
+		)
+		(pin "4"
+			(uuid "0ba6f6bb-2199-4977-8545-32583ae0a60f")
+		)
+		(pin "3"
+			(uuid "206f730c-ce67-4f48-9d2c-fddc80060c33")
+		)
+		(pin "6"
+			(uuid "3f35cab0-6307-4748-a15b-2f4fb1942d18")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "D65")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "D21")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "D42")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "D128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102")
+		(at 63.5 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "928adaf4-decd-4bb2-a840-d790240c488c")
+		(property "Reference" "D13"
+			(at 61.3567 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 61.3567 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+			(at 60.96 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 63.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "01fd7e51-17d3-46ec-af11-dab5868b7f59")
+		)
+		(pin "1"
+			(uuid "7258ce45-5224-4c5a-aa6b-2eec7e8390ab")
+		)
+		(pin "2"
+			(uuid "9bbd2bfd-6c37-4472-91be-a43caf55457d")
+		)
+		(pin "4"
+			(uuid "0d099ee3-841e-439b-b312-2a54c1072daa")
+		)
+		(pin "3"
+			(uuid "01d65abd-2b67-478f-88cc-96174763d5a5")
+		)
+		(pin "6"
+			(uuid "77aa7b47-217c-4370-9dc2-bce86f5cfe16")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "D49")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "D13")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "D26")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "D112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_Small")
+		(at 236.22 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93476bae-5f65-4f33-8845-3eeb9ca98e5e")
+		(property "Reference" "#SYM"
+			(at 234.696 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Arrow_Small"
+			(at 237.49 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Filled arrow, 160mil"
+			(at 236.22 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 236.22 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "#SYM26")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "#SYM8")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "#SYM53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102")
+		(at 120.65 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94bc401c-b847-4415-a292-64199cc5bde0")
+		(property "Reference" "D19"
+			(at 122.7933 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 122.7933 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+			(at 123.19 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 120.65 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "554c56b2-e4c6-404e-8ff7-5d3ec5723058")
+		)
+		(pin "1"
+			(uuid "4a8fdd2d-1adf-44bd-9532-9c34f4226723")
+		)
+		(pin "2"
+			(uuid "47d6d74b-e444-4b4b-88eb-462c5fbe3067")
+		)
+		(pin "4"
+			(uuid "31b2b894-0b8d-4201-b7ba-7e464026595a")
+		)
+		(pin "3"
+			(uuid "2fddb9eb-a3bf-4304-be2f-f326a9196475")
+		)
+		(pin "6"
+			(uuid "aa328d87-1b93-4c86-9af9-b075851e97a1")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "D59")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "D19")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "D36")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "D122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 44.45 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3379390-87ee-40a1-88a3-8900c21bbb7e")
+		(property "Reference" "#PWR05"
+			(at 44.45 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 44.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 44.45 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b466c29-6f9a-4ebc-a4c1-da71693f9252")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "#PWR019")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_Small")
+		(at 229.87 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b895fb92-025b-4f00-9df8-c2a11ee6c34d")
+		(property "Reference" "#SYM"
+			(at 229.87 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Arrow_Small"
+			(at 230.124 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Filled arrow, 160mil"
+			(at 229.87 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 229.87 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "#SYM24")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "#SYM6")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "#SYM51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102")
+		(at 63.5 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbb134ba-23ab-49f8-a817-c32e7002cc21")
+		(property "Reference" "D2"
+			(at 65.6433 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 65.6433 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+			(at 66.04 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 63.5 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "410e8916-4876-44ca-9a28-9ecb94b4ff44")
+		)
+		(pin "1"
+			(uuid "6f671715-7623-40d0-93f5-406bbfd06f75")
+		)
+		(pin "2"
+			(uuid "91e093e5-36bc-4a47-9e26-df657a479717")
+		)
+		(pin "4"
+			(uuid "1049b246-deb9-4ed5-81f6-c44a552570dd")
+		)
+		(pin "3"
+			(uuid "46417c60-c3cf-4506-8133-c8f78029f823")
+		)
+		(pin "6"
+			(uuid "72cbef06-b80d-4a4a-82d2-2ce0bbd52234")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "D48")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "D2")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "D25")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "D111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 107.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc728c47-c51a-4ffa-bd99-304e27435887")
+		(property "Reference" "#PWR04"
+			(at 44.45 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e507f8e5-01a0-4d9b-b60d-a849c01b9dae")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "#PWR018")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "#PWR04")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "#PWR012")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_Small")
+		(at 223.52 48.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf1d2ede-50d3-40b5-b2da-e25c4c5bf6be")
+		(property "Reference" "#SYM"
+			(at 225.044 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Arrow_Small"
+			(at 222.25 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Filled arrow, 160mil"
+			(at 223.52 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 223.52 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "#SYM21")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "#SYM3")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "#SYM48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d142c21a-b7a8-42ac-848a-c1256007127c")
+		(property "Reference" "#PWR"
+			(at 44.45 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dbdf440-0518-4983-8c41-dc6d5dea325b")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "#PWR016")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102")
+		(at 44.45 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4a41941-12a9-4789-86c3-1d4508449a52")
+		(property "Reference" "D14"
+			(at 42.3067 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 42.3067 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+			(at 41.91 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 44.45 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "fb16089a-3d87-458d-97dc-c91c15f3148b")
+		)
+		(pin "1"
+			(uuid "84087e12-a570-4b97-9665-28e7da93ad06")
+		)
+		(pin "2"
+			(uuid "4f57c1e1-a64c-4c40-a4c0-cb5c165e92e9")
+		)
+		(pin "4"
+			(uuid "3693c8ce-965c-43cb-a6e9-ff75d367151e")
+		)
+		(pin "3"
+			(uuid "09d53201-b931-418c-8a28-b71999f4fe2e")
+		)
+		(pin "6"
+			(uuid "46b6e562-f0a3-4310-9763-77accbf92092")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "D46")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "D14")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "D23")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "D109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0001117-adf2-46fc-9aa6-f10e93f11608")
+		(property "Reference" "#PWR06"
+			(at 44.45 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5188115f-4eff-4326-a969-5bc7fce5b767")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "#PWR020")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102")
+		(at 139.7 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec7cbb33-4323-40e4-9293-5f6658db2172")
+		(property "Reference" "D6"
+			(at 141.8433 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 141.8433 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+			(at 142.24 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 139.7 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "eebc1e38-b0e5-459b-8f50-83b20108ec7c")
+		)
+		(pin "1"
+			(uuid "4dde48bf-2fe5-46e5-a0a4-a88ce798c39c")
+		)
+		(pin "2"
+			(uuid "36b99330-450d-4e05-b6e8-6d78c0387c2f")
+		)
+		(pin "4"
+			(uuid "1030c618-ed8c-4061-89b0-8709a1b3af8f")
+		)
+		(pin "3"
+			(uuid "041b6ecf-4eae-4764-b109-2ef524b844d8")
+		)
+		(pin "6"
+			(uuid "796cef04-0ed7-4572-b7d1-f61c9ed07c71")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "D60")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "D37")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "D123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102")
+		(at 139.7 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f06ab869-0f56-443f-8704-2b6c413509aa")
+		(property "Reference" "D9"
+			(at 137.5567 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 137.5567 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+			(at 137.16 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "69eae3ee-d065-4d9a-ac38-77d83cebb1d6")
+		)
+		(pin "1"
+			(uuid "e915a9dc-065f-4bf7-b820-f6c5f89ef968")
+		)
+		(pin "2"
+			(uuid "2617f996-4c8b-4a7f-90df-cacb0029f111")
+		)
+		(pin "4"
+			(uuid "a08073e6-4c10-4939-9a35-554b2c757902")
+		)
+		(pin "3"
+			(uuid "806b3685-4faa-49d1-8cfb-e3b0d211128a")
+		)
+		(pin "6"
+			(uuid "a1472fb5-6370-4bc6-8cf6-4415fdb2af15")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "D61")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "D9")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "D38")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "D124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102")
+		(at 120.65 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4cdd27e-3ffc-4ce3-a454-697e295357c3")
+		(property "Reference" "D10"
+			(at 118.5067 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK9822"
+			(at 118.5067 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+			(at 118.11 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 120.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "fa2f084b-753d-461a-9900-4a5d1a839c0b")
+		)
+		(pin "1"
+			(uuid "d9b66ea4-b650-46ed-8604-61204dbe8ded")
+		)
+		(pin "2"
+			(uuid "6a5bfed8-31e2-4158-a99a-12ead6a13030")
+		)
+		(pin "4"
+			(uuid "a80aa443-83db-44bc-a0cf-1d5441baf054")
+		)
+		(pin "3"
+			(uuid "58669b42-e365-41b1-b525-70fefffce0d1")
+		)
+		(pin "6"
+			(uuid "287a98f7-33e2-450d-b757-d06c607d11c7")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+					(reference "D58")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+					(reference "D35")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
+					(reference "D121")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
