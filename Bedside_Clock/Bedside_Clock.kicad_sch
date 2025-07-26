@@ -10,7 +10,7 @@
 		(company "Matthew Haahr")
 	)
 	(lib_symbols
-		(symbol "LED:APA102"
+		(symbol "LED:HD107s"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -23,7 +23,7 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "APA102"
+			(property "Value" "HD107s"
 				(at 1.27 -5.715 0)
 				(effects
 					(font
@@ -42,7 +42,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+			(property "Datasheet" "https://www.ledlightinghut.com/files/HD107S.pdf"
 				(at 2.54 -9.525 0)
 				(effects
 					(font
@@ -53,6 +53,15 @@
 				)
 			)
 			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Site" "https://www.ledlightinghut.com/hd107s-5050-rgb-led.html"
 				(at 0 0 0)
 				(effects
 					(font
@@ -79,7 +88,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "APA102_0_0"
+			(symbol "HD107s_0_0"
 				(text "RGB"
 					(at 2.286 -4.191 0)
 					(effects
@@ -89,7 +98,7 @@
 					)
 				)
 			)
-			(symbol "APA102_0_1"
+			(symbol "HD107s_0_1"
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 1.778 -2.54)
@@ -186,7 +195,7 @@
 					)
 				)
 			)
-			(symbol "APA102_1_1"
+			(symbol "HD107s_1_1"
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -535,10 +544,10 @@
 		)
 		(uuid "35b322a7-8195-4c4b-961c-b4ea036fcb8f")
 	)
-	(text_box "TODO:\nMCU (ESP32 (NTP) or STM32 (RTC))\nAmbient Light Sensor\nProximity Sensor\nColor Button (5 Colors (Red, Amber, Green, Blue, Magenta (same as Pendant), and Rainbow)\nMode Button (Proximity, Ambient Brightness, Always On)\nUSB C Port for Power\n3V3 Regulator (Something efficient)"
+	(text_box "TODO:\nMCU (ESP32 (NTP) or STM32 (RTC))\nAmbient Light Sensor\nProximity Sensor\nColor Button (5 Colors (Red, Amber, Green, Blue, Magenta (same as Pendant), and Rainbow)\nMode Button (Proximity, Ambient Brightness, Always On)\nUSB C Port for Power\n3V3 Regulator (Something efficient)\nCheck LED Capacitor requirement\n"
 		(exclude_from_sim no)
 		(at 41.91 100.33 0)
-		(size 95.25 19.05)
+		(size 95.25 20.32)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -566,6 +575,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab79c6d8-3872-4312-a522-32e8ddc1cef5")
+	)
+	(no_connect
+		(at 162.56 64.77)
+		(uuid "00dfe1b3-1143-466f-a919-6ecafc874067")
+	)
+	(no_connect
+		(at 162.56 67.31)
+		(uuid "d0cf296d-3930-4b84-867f-276a75aaf4c5")
 	)
 	(wire
 		(pts
@@ -834,7 +851,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:APA102")
+		(lib_id "LED:HD107s")
 		(at 111.76 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -861,7 +878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
 			(at 113.03 74.93 0)
 			(effects
 				(font
@@ -871,7 +888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+		(property "Datasheet" "https://www.ledlightinghut.com/files/HD107S.pdf"
 			(at 114.3 76.835 0)
 			(effects
 				(font
@@ -882,6 +899,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 111.76 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Site" "https://www.ledlightinghut.com/hd107s-5050-rgb-led.html"
 			(at 111.76 67.31 0)
 			(effects
 				(font
@@ -918,7 +944,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:APA102")
+		(lib_id "LED:HD107s")
 		(at 92.71 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -945,7 +971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
 			(at 93.98 74.93 0)
 			(effects
 				(font
@@ -955,7 +981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+		(property "Datasheet" "https://www.ledlightinghut.com/files/HD107S.pdf"
 			(at 95.25 76.835 0)
 			(effects
 				(font
@@ -966,6 +992,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 92.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Site" "https://www.ledlightinghut.com/hd107s-5050-rgb-led.html"
 			(at 92.71 67.31 0)
 			(effects
 				(font

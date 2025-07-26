@@ -100,7 +100,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED:APA102"
+		(symbol "LED:HD107s"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -113,7 +113,7 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "APA102"
+			(property "Value" "HD107s"
 				(at 1.27 -5.715 0)
 				(effects
 					(font
@@ -132,7 +132,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+			(property "Datasheet" "https://www.ledlightinghut.com/files/HD107S.pdf"
 				(at 2.54 -9.525 0)
 				(effects
 					(font
@@ -143,6 +143,15 @@
 				)
 			)
 			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Site" "https://www.ledlightinghut.com/hd107s-5050-rgb-led.html"
 				(at 0 0 0)
 				(effects
 					(font
@@ -169,7 +178,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "APA102_0_0"
+			(symbol "HD107s_0_0"
 				(text "RGB"
 					(at 2.286 -4.191 0)
 					(effects
@@ -179,7 +188,7 @@
 					)
 				)
 			)
-			(symbol "APA102_0_1"
+			(symbol "HD107s_0_1"
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 1.778 -2.54)
@@ -276,7 +285,7 @@
 					)
 				)
 			)
-			(symbol "APA102_1_1"
+			(symbol "HD107s_1_1"
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -383,6 +392,107 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SYM_Arrow_Small_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#SYM"
+				(at 0 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "SYM_Arrow_Small"
+				(at 0.254 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Filled arrow, 160mil"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "symbol arrow"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SYM_Arrow_Small_1_0_1"
+				(polyline
+					(pts
+						(xy 1.524 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 0.762 -0.508) (xy 0.762 0.508) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 			)
@@ -614,6 +724,300 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 229.235 28.575)
+		(end 230.505 29.845)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 132 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 194 0 1)
+		)
+		(uuid 10fc07e4-c7c8-4211-b95c-630cd20d2a3a)
+	)
+	(rectangle
+		(start 226.695 41.275)
+		(end 227.965 42.545)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 132 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 194 0 1)
+		)
+		(uuid 1be4b445-fd66-4a2f-aeae-14cb7e3cb0e7)
+	)
+	(rectangle
+		(start 229.235 53.975)
+		(end 230.505 55.245)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 132 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 194 0 1)
+		)
+		(uuid 236169ea-1d26-4a9f-8974-f0803b8bb49f)
+	)
+	(rectangle
+		(start 224.155 45.085)
+		(end 222.885 46.355)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 132 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 194 0 1)
+		)
+		(uuid 4968db92-202b-4ab9-b432-b98c328a8902)
+	)
+	(rectangle
+		(start 224.155 32.385)
+		(end 222.885 33.655)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 132 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 194 0 1)
+		)
+		(uuid 4f036d0f-52c3-4cce-8936-13d75d8be799)
+	)
+	(rectangle
+		(start 235.585 47.625)
+		(end 236.855 48.895)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 132 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 194 0 1)
+		)
+		(uuid 510470f2-1240-4efc-9e47-b5df64119eff)
+	)
+	(rectangle
+		(start 236.855 50.165)
+		(end 235.585 51.435)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 132 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 194 0 1)
+		)
+		(uuid 58b8b92c-d5ee-4803-bafc-8d65e43f63a2)
+	)
+	(rectangle
+		(start 236.855 45.085)
+		(end 235.585 46.355)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 132 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 194 0 1)
+		)
+		(uuid 60fcd02f-4a69-4a2a-ba04-d2f84b86d534)
+	)
+	(rectangle
+		(start 226.695 28.575)
+		(end 227.965 29.845)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 132 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 194 0 1)
+		)
+		(uuid 70376281-0b7b-44aa-895e-b8a2f35fb066)
+	)
+	(rectangle
+		(start 224.155 37.465)
+		(end 222.885 38.735)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 132 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 194 0 1)
+		)
+		(uuid 7c4fc3fd-aa25-466d-b3fb-2e5f430df6fb)
+	)
+	(rectangle
+		(start 229.235 41.275)
+		(end 230.505 42.545)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 132 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 194 0 1)
+		)
+		(uuid 87e7e444-e0af-4d05-b3e6-a8c105001ab7)
+	)
+	(rectangle
+		(start 224.155 47.625)
+		(end 222.885 48.895)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 132 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 194 0 1)
+		)
+		(uuid 8c98b9b7-b526-4099-897e-f7e9b94a75fb)
+	)
+	(rectangle
+		(start 231.775 28.575)
+		(end 233.045 29.845)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 132 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 194 0 1)
+		)
+		(uuid a4b31b5d-a53f-47d2-9e77-5f44a4a899ce)
+	)
+	(rectangle
+		(start 236.855 34.29)
+		(end 235.585 35.56)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 132 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 194 0 1)
+		)
+		(uuid a88ce4e0-45e3-4f45-8501-796eedf5eac9)
+	)
+	(rectangle
+		(start 236.855 36.83)
+		(end 235.585 38.1)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 132 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 194 0 1)
+		)
+		(uuid b79f2f34-9347-4f91-9436-cca327e197c7)
+	)
+	(rectangle
+		(start 231.775 41.275)
+		(end 233.045 42.545)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 132 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 194 0 1)
+		)
+		(uuid b7ea8eb0-6f6b-460e-9f60-bc649c6dccf4)
+	)
+	(rectangle
+		(start 236.855 31.75)
+		(end 235.585 33.02)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 132 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 194 0 1)
+		)
+		(uuid bec8d08c-25a4-4b24-90d1-9f9710a69a55)
+	)
+	(rectangle
+		(start 224.155 34.925)
+		(end 222.885 36.195)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 132 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 194 0 1)
+		)
+		(uuid c26a0133-784a-41d4-996d-bdc0fae8ee78)
+	)
+	(rectangle
+		(start 226.695 53.975)
+		(end 227.965 55.245)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 132 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 194 0 1)
+		)
+		(uuid da7201b7-9976-48c0-8504-ca4647b6a31e)
+	)
+	(rectangle
+		(start 224.155 50.165)
+		(end 222.885 51.435)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 132 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 194 0 1)
+		)
+		(uuid dd03b359-d438-4144-84cd-18817133fd52)
+	)
+	(rectangle
+		(start 231.775 53.975)
+		(end 233.045 55.245)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 132 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 194 0 1)
+		)
+		(uuid f8f6b9bb-ce81-45ee-93ea-f62179d7f513)
 	)
 	(junction
 		(at 63.5 29.21)
@@ -2309,13 +2713,13 @@
 		(lib_id "Graphic:SYM_Arrow_Small")
 		(at 229.87 41.91 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0041aac7-b881-4554-8f61-29b815250a70")
-		(property "Reference" "#SYM"
+		(property "Reference" "#SYM?"
 			(at 229.87 43.434 0)
 			(effects
 				(font
@@ -2360,19 +2764,14 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 229.87 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "Bedside_Clock"
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
 					(reference "#SYM23")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "#SYM?")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
@@ -2387,7 +2786,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:APA102")
+		(lib_id "LED:HD107s")
 		(at 158.75 91.44 0)
 		(mirror y)
 		(unit 1)
@@ -2398,24 +2797,24 @@
 		(fields_autoplaced yes)
 		(uuid "09191a90-8124-416f-b81a-f1836f254040")
 		(property "Reference" "D8"
-			(at 156.6067 81.28 0)
+			(at 161.8681 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "SK9822"
-			(at 156.6067 83.82 0)
+			(at 161.8681 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
 			(at 157.48 99.06 0)
 			(effects
 				(font
@@ -2425,7 +2824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+		(property "Datasheet" "https://www.ledlightinghut.com/files/HD107S.pdf"
 			(at 156.21 100.965 0)
 			(effects
 				(font
@@ -2436,6 +2835,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 158.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Site" "https://www.ledlightinghut.com/hd107s-5050-rgb-led.html"
 			(at 158.75 91.44 0)
 			(effects
 				(font
@@ -2563,7 +2971,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:APA102")
+		(lib_id "LED:HD107s")
 		(at 44.45 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2581,7 +2989,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SK9822"
+		(property "Value" "HD107S"
 			(at 46.5933 35.56 0)
 			(effects
 				(font
@@ -2590,7 +2998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
 			(at 45.72 50.8 0)
 			(effects
 				(font
@@ -2600,7 +3008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+		(property "Datasheet" "https://www.ledlightinghut.com/files/HD107S.pdf"
 			(at 46.99 52.705 0)
 			(effects
 				(font
@@ -2611,6 +3019,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 44.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Site" "https://www.ledlightinghut.com/hd107s-5050-rgb-led.html"
 			(at 44.45 43.18 0)
 			(effects
 				(font
@@ -2659,7 +3076,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:APA102")
+		(lib_id "LED:HD107s")
 		(at 82.55 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2686,7 +3103,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
 			(at 83.82 147.32 0)
 			(effects
 				(font
@@ -2696,7 +3113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+		(property "Datasheet" "https://www.ledlightinghut.com/files/HD107S.pdf"
 			(at 85.09 149.225 0)
 			(effects
 				(font
@@ -2707,6 +3124,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 82.55 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Site" "https://www.ledlightinghut.com/hd107s-5050-rgb-led.html"
 			(at 82.55 139.7 0)
 			(effects
 				(font
@@ -2758,13 +3184,13 @@
 		(lib_id "Graphic:SYM_Arrow_Small")
 		(at 220.98 41.91 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "116e2002-4180-425f-a251-8495964525c2")
-		(property "Reference" "#SYM"
+		(property "Reference" "#SYM?"
 			(at 220.98 40.386 0)
 			(effects
 				(font
@@ -2809,19 +3235,14 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 220.98 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "Bedside_Clock"
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
 					(reference "#SYM19")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "#SYM?")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
@@ -2836,7 +3257,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:APA102")
+		(lib_id "LED:HD107s")
 		(at 101.6 91.44 0)
 		(mirror y)
 		(unit 1)
@@ -2847,24 +3268,24 @@
 		(fields_autoplaced yes)
 		(uuid "1c508c12-e2b0-4dfb-8a5f-77c8b05081b5")
 		(property "Reference" "D11"
-			(at 99.4567 81.28 0)
+			(at 104.7181 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "SK9822"
-			(at 99.4567 83.82 0)
+			(at 104.7181 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
 			(at 100.33 99.06 0)
 			(effects
 				(font
@@ -2874,7 +3295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+		(property "Datasheet" "https://www.ledlightinghut.com/files/HD107S.pdf"
 			(at 99.06 100.965 0)
 			(effects
 				(font
@@ -2885,6 +3306,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Site" "https://www.ledlightinghut.com/hd107s-5050-rgb-led.html"
 			(at 101.6 91.44 0)
 			(effects
 				(font
@@ -2933,7 +3363,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:APA102")
+		(lib_id "LED:HD107s")
 		(at 82.55 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2960,7 +3390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
 			(at 83.82 50.8 0)
 			(effects
 				(font
@@ -2970,7 +3400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+		(property "Datasheet" "https://www.ledlightinghut.com/files/HD107S.pdf"
 			(at 85.09 52.705 0)
 			(effects
 				(font
@@ -2981,6 +3411,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Site" "https://www.ledlightinghut.com/hd107s-5050-rgb-led.html"
 			(at 82.55 43.18 0)
 			(effects
 				(font
@@ -3029,7 +3468,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:APA102")
+		(lib_id "LED:HD107s")
 		(at 120.65 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3056,7 +3495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
 			(at 121.92 50.8 0)
 			(effects
 				(font
@@ -3066,7 +3505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+		(property "Datasheet" "https://www.ledlightinghut.com/files/HD107S.pdf"
 			(at 123.19 52.705 0)
 			(effects
 				(font
@@ -3077,6 +3516,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 120.65 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Site" "https://www.ledlightinghut.com/hd107s-5050-rgb-led.html"
 			(at 120.65 43.18 0)
 			(effects
 				(font
@@ -3125,7 +3573,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:APA102")
+		(lib_id "LED:HD107s")
 		(at 101.6 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3152,7 +3600,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
 			(at 102.87 147.32 0)
 			(effects
 				(font
@@ -3162,7 +3610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+		(property "Datasheet" "https://www.ledlightinghut.com/files/HD107S.pdf"
 			(at 104.14 149.225 0)
 			(effects
 				(font
@@ -3173,6 +3621,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 101.6 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Site" "https://www.ledlightinghut.com/hd107s-5050-rgb-led.html"
 			(at 101.6 139.7 0)
 			(effects
 				(font
@@ -3224,13 +3681,13 @@
 		(lib_id "Graphic:SYM_Arrow_Small")
 		(at 223.52 35.56 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36304f9a-121b-47da-819c-fc7c8c38a706")
-		(property "Reference" "#SYM"
+		(property "Reference" "#SYM?"
 			(at 221.996 35.56 0)
 			(effects
 				(font
@@ -3275,19 +3732,14 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 223.52 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "Bedside_Clock"
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
 					(reference "#SYM20")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "#SYM?")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
@@ -3302,7 +3754,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:APA102")
+		(lib_id "LED:HD107s")
 		(at 63.5 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3329,7 +3781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
 			(at 64.77 147.32 0)
 			(effects
 				(font
@@ -3339,7 +3791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+		(property "Datasheet" "https://www.ledlightinghut.com/files/HD107S.pdf"
 			(at 66.04 149.225 0)
 			(effects
 				(font
@@ -3350,6 +3802,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 63.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Site" "https://www.ledlightinghut.com/hd107s-5050-rgb-led.html"
 			(at 63.5 139.7 0)
 			(effects
 				(font
@@ -3401,13 +3862,13 @@
 		(lib_id "Graphic:SYM_Arrow_Small")
 		(at 236.22 35.56 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48591a3d-48b1-4c1c-921d-f47fb15bc5b8")
-		(property "Reference" "#SYM"
+		(property "Reference" "#SYM?"
 			(at 237.744 35.56 0)
 			(effects
 				(font
@@ -3452,19 +3913,14 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 236.22 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "Bedside_Clock"
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
 					(reference "#SYM25")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "#SYM?")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
@@ -3479,7 +3935,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:APA102")
+		(lib_id "LED:HD107s")
 		(at 139.7 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3506,7 +3962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
 			(at 140.97 147.32 0)
 			(effects
 				(font
@@ -3516,7 +3972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+		(property "Datasheet" "https://www.ledlightinghut.com/files/HD107S.pdf"
 			(at 142.24 149.225 0)
 			(effects
 				(font
@@ -3527,6 +3983,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 139.7 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Site" "https://www.ledlightinghut.com/hd107s-5050-rgb-led.html"
 			(at 139.7 139.7 0)
 			(effects
 				(font
@@ -3584,7 +4049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ccdda3b-8c21-401b-91aa-6553656b934d")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR?"
 			(at 44.45 30.48 0)
 			(effects
 				(font
@@ -3637,6 +4102,10 @@
 					(reference "#PWR015")
 					(unit 1)
 				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "#PWR?")
+					(unit 1)
+				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
 					(reference "#PWR09")
 					(unit 1)
@@ -3649,7 +4118,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:APA102")
+		(lib_id "LED:HD107s")
 		(at 82.55 91.44 0)
 		(mirror y)
 		(unit 1)
@@ -3660,24 +4129,24 @@
 		(fields_autoplaced yes)
 		(uuid "5d03e039-49e0-4280-bfb5-a44eec030003")
 		(property "Reference" "D12"
-			(at 80.4067 81.28 0)
+			(at 85.6681 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "SK9822"
-			(at 80.4067 83.82 0)
+			(at 85.6681 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
 			(at 81.28 99.06 0)
 			(effects
 				(font
@@ -3687,7 +4156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+		(property "Datasheet" "https://www.ledlightinghut.com/files/HD107S.pdf"
 			(at 80.01 100.965 0)
 			(effects
 				(font
@@ -3698,6 +4167,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 82.55 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Site" "https://www.ledlightinghut.com/hd107s-5050-rgb-led.html"
 			(at 82.55 91.44 0)
 			(effects
 				(font
@@ -3749,13 +4227,13 @@
 		(lib_id "Graphic:SYM_Arrow_Small")
 		(at 229.87 29.21 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d6cc7c9-5bf5-4dce-9913-b1eefca16e12")
-		(property "Reference" "#SYM"
+		(property "Reference" "#SYM?"
 			(at 229.87 27.686 0)
 			(effects
 				(font
@@ -3800,19 +4278,14 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 229.87 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "Bedside_Clock"
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
 					(reference "#SYM22")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "#SYM?")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
@@ -3827,7 +4300,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:APA102")
+		(lib_id "LED:HD107s")
 		(at 158.75 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3854,7 +4327,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
 			(at 160.02 50.8 0)
 			(effects
 				(font
@@ -3864,7 +4337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+		(property "Datasheet" "https://www.ledlightinghut.com/files/HD107S.pdf"
 			(at 161.29 52.705 0)
 			(effects
 				(font
@@ -3875,6 +4348,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 158.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Site" "https://www.ledlightinghut.com/hd107s-5050-rgb-led.html"
 			(at 158.75 43.18 0)
 			(effects
 				(font
@@ -3926,13 +4408,13 @@
 		(lib_id "Graphic:SYM_Arrow_Small")
 		(at 238.76 41.91 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6940f674-0ec9-43e3-a850-27a2135322a3")
-		(property "Reference" "#SYM"
+		(property "Reference" "#SYM?"
 			(at 238.76 40.386 0)
 			(effects
 				(font
@@ -3977,19 +4459,14 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 238.76 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "Bedside_Clock"
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
 					(reference "#SYM27")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "#SYM?")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
@@ -4004,7 +4481,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:APA102")
+		(lib_id "LED:HD107s")
 		(at 44.45 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4031,7 +4508,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
 			(at 45.72 147.32 0)
 			(effects
 				(font
@@ -4041,7 +4518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+		(property "Datasheet" "https://www.ledlightinghut.com/files/HD107S.pdf"
 			(at 46.99 149.225 0)
 			(effects
 				(font
@@ -4052,6 +4529,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 44.45 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Site" "https://www.ledlightinghut.com/hd107s-5050-rgb-led.html"
 			(at 44.45 139.7 0)
 			(effects
 				(font
@@ -4100,7 +4586,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:APA102")
+		(lib_id "LED:HD107s")
 		(at 101.6 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4127,7 +4613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
 			(at 102.87 50.8 0)
 			(effects
 				(font
@@ -4137,7 +4623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+		(property "Datasheet" "https://www.ledlightinghut.com/files/HD107S.pdf"
 			(at 104.14 52.705 0)
 			(effects
 				(font
@@ -4148,6 +4634,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 101.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Site" "https://www.ledlightinghut.com/hd107s-5050-rgb-led.html"
 			(at 101.6 43.18 0)
 			(effects
 				(font
@@ -4196,7 +4691,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:APA102")
+		(lib_id "LED:HD107s")
 		(at 158.75 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4223,7 +4718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
 			(at 160.02 147.32 0)
 			(effects
 				(font
@@ -4233,7 +4728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+		(property "Datasheet" "https://www.ledlightinghut.com/files/HD107S.pdf"
 			(at 161.29 149.225 0)
 			(effects
 				(font
@@ -4244,6 +4739,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 158.75 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Site" "https://www.ledlightinghut.com/hd107s-5050-rgb-led.html"
 			(at 158.75 139.7 0)
 			(effects
 				(font
@@ -4292,7 +4796,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:APA102")
+		(lib_id "LED:HD107s")
 		(at 63.5 91.44 0)
 		(mirror y)
 		(unit 1)
@@ -4303,24 +4807,24 @@
 		(fields_autoplaced yes)
 		(uuid "928adaf4-decd-4bb2-a840-d790240c488c")
 		(property "Reference" "D13"
-			(at 61.3567 81.28 0)
+			(at 66.6181 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "SK9822"
-			(at 61.3567 83.82 0)
+			(at 66.6181 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
 			(at 62.23 99.06 0)
 			(effects
 				(font
@@ -4330,7 +4834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+		(property "Datasheet" "https://www.ledlightinghut.com/files/HD107S.pdf"
 			(at 60.96 100.965 0)
 			(effects
 				(font
@@ -4341,6 +4845,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 63.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Site" "https://www.ledlightinghut.com/hd107s-5050-rgb-led.html"
 			(at 63.5 91.44 0)
 			(effects
 				(font
@@ -4392,13 +4905,13 @@
 		(lib_id "Graphic:SYM_Arrow_Small")
 		(at 236.22 48.26 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93476bae-5f65-4f33-8845-3eeb9ca98e5e")
-		(property "Reference" "#SYM"
+		(property "Reference" "#SYM?"
 			(at 234.696 48.26 0)
 			(effects
 				(font
@@ -4443,19 +4956,14 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 236.22 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "Bedside_Clock"
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
 					(reference "#SYM26")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "#SYM?")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
@@ -4470,7 +4978,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:APA102")
+		(lib_id "LED:HD107s")
 		(at 120.65 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4497,7 +5005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
 			(at 121.92 147.32 0)
 			(effects
 				(font
@@ -4507,7 +5015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+		(property "Datasheet" "https://www.ledlightinghut.com/files/HD107S.pdf"
 			(at 123.19 149.225 0)
 			(effects
 				(font
@@ -4518,6 +5026,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 120.65 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Site" "https://www.ledlightinghut.com/hd107s-5050-rgb-led.html"
 			(at 120.65 139.7 0)
 			(effects
 				(font
@@ -4647,13 +5164,13 @@
 		(lib_id "Graphic:SYM_Arrow_Small")
 		(at 229.87 54.61 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b895fb92-025b-4f00-9df8-c2a11ee6c34d")
-		(property "Reference" "#SYM"
+		(property "Reference" "#SYM?"
 			(at 229.87 53.086 0)
 			(effects
 				(font
@@ -4698,19 +5215,14 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 229.87 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "Bedside_Clock"
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
 					(reference "#SYM24")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "#SYM?")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
@@ -4725,7 +5237,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:APA102")
+		(lib_id "LED:HD107s")
 		(at 63.5 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4752,7 +5264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
 			(at 64.77 50.8 0)
 			(effects
 				(font
@@ -4762,7 +5274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+		(property "Datasheet" "https://www.ledlightinghut.com/files/HD107S.pdf"
 			(at 66.04 52.705 0)
 			(effects
 				(font
@@ -4773,6 +5285,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 63.5 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Site" "https://www.ledlightinghut.com/hd107s-5050-rgb-led.html"
 			(at 63.5 43.18 0)
 			(effects
 				(font
@@ -4900,16 +5421,17 @@
 		)
 	)
 	(symbol
+		(lib_name "SYM_Arrow_Small_1")
 		(lib_id "Graphic:SYM_Arrow_Small")
 		(at 223.52 48.26 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf1d2ede-50d3-40b5-b2da-e25c4c5bf6be")
-		(property "Reference" "#SYM"
+		(property "Reference" "#SYM?"
 			(at 225.044 48.26 0)
 			(effects
 				(font
@@ -4954,19 +5476,14 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 223.52 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "Bedside_Clock"
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
 					(reference "#SYM21")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "#SYM?")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
@@ -4990,7 +5507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d142c21a-b7a8-42ac-848a-c1256007127c")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR?"
 			(at 44.45 66.04 0)
 			(effects
 				(font
@@ -5043,6 +5560,10 @@
 					(reference "#PWR016")
 					(unit 1)
 				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "#PWR?")
+					(unit 1)
+				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
 					(reference "#PWR010")
 					(unit 1)
@@ -5055,7 +5576,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:APA102")
+		(lib_id "LED:HD107s")
 		(at 44.45 91.44 0)
 		(mirror y)
 		(unit 1)
@@ -5066,24 +5587,24 @@
 		(fields_autoplaced yes)
 		(uuid "d4a41941-12a9-4789-86c3-1d4508449a52")
 		(property "Reference" "D14"
-			(at 42.3067 81.28 0)
+			(at 47.5681 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "SK9822"
-			(at 42.3067 83.82 0)
+			(at 47.5681 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
 			(at 43.18 99.06 0)
 			(effects
 				(font
@@ -5093,7 +5614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+		(property "Datasheet" "https://www.ledlightinghut.com/files/HD107S.pdf"
 			(at 41.91 100.965 0)
 			(effects
 				(font
@@ -5104,6 +5625,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 44.45 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Site" "https://www.ledlightinghut.com/hd107s-5050-rgb-led.html"
 			(at 44.45 91.44 0)
 			(effects
 				(font
@@ -5230,7 +5760,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:APA102")
+		(lib_id "LED:HD107s")
 		(at 139.7 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5257,7 +5787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
 			(at 140.97 50.8 0)
 			(effects
 				(font
@@ -5267,7 +5797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+		(property "Datasheet" "https://www.ledlightinghut.com/files/HD107S.pdf"
 			(at 142.24 52.705 0)
 			(effects
 				(font
@@ -5278,6 +5808,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 139.7 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Site" "https://www.ledlightinghut.com/hd107s-5050-rgb-led.html"
 			(at 139.7 43.18 0)
 			(effects
 				(font
@@ -5326,7 +5865,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:APA102")
+		(lib_id "LED:HD107s")
 		(at 139.7 91.44 0)
 		(mirror y)
 		(unit 1)
@@ -5337,24 +5876,24 @@
 		(fields_autoplaced yes)
 		(uuid "f06ab869-0f56-443f-8704-2b6c413509aa")
 		(property "Reference" "D9"
-			(at 137.5567 81.28 0)
+			(at 142.8181 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "SK9822"
-			(at 137.5567 83.82 0)
+			(at 142.8181 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
 			(at 138.43 99.06 0)
 			(effects
 				(font
@@ -5364,7 +5903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+		(property "Datasheet" "https://www.ledlightinghut.com/files/HD107S.pdf"
 			(at 137.16 100.965 0)
 			(effects
 				(font
@@ -5375,6 +5914,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Site" "https://www.ledlightinghut.com/hd107s-5050-rgb-led.html"
 			(at 139.7 91.44 0)
 			(effects
 				(font
@@ -5423,7 +5971,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:APA102")
+		(lib_id "LED:HD107s")
 		(at 120.65 91.44 0)
 		(mirror y)
 		(unit 1)
@@ -5434,24 +5982,24 @@
 		(fields_autoplaced yes)
 		(uuid "f4cdd27e-3ffc-4ce3-a454-697e295357c3")
 		(property "Reference" "D10"
-			(at 118.5067 81.28 0)
+			(at 123.7681 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "SK9822"
-			(at 118.5067 83.82 0)
+			(at 123.7681 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
 			(at 119.38 99.06 0)
 			(effects
 				(font
@@ -5461,7 +6009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
+		(property "Datasheet" "https://www.ledlightinghut.com/files/HD107S.pdf"
 			(at 118.11 100.965 0)
 			(effects
 				(font
@@ -5472,6 +6020,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 120.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Site" "https://www.ledlightinghut.com/hd107s-5050-rgb-led.html"
 			(at 120.65 91.44 0)
 			(effects
 				(font
