@@ -3490,10 +3490,10 @@
 		)
 		(uuid "4148427a-84bf-4e22-bc44-5b28d8673a2e")
 	)
-	(text_box "TODO:\nAmbient Light Sensor\nProximity Sensor\nColor Button (5 Colors (Red, Amber, Green, Blue, Magenta (same as Pendant), and Rainbow)\nMode Button (Proximity, Ambient Brightness, Always On)\n3V3 Regulator (Something efficient)\nCheck LED Capacitor requirement\n"
+	(text_box "TODO:\nAmbient Light Sensor\nProximity Sensor\nColor Button (5 Colors (Red, Amber, Green, Blue, Magenta (same as Pendant), and Rainbow)\nMode Button (Proximity, Ambient Brightness, Always On)\n3V3 Regulator (Something efficient)\n"
 		(exclude_from_sim no)
 		(at 34.29 96.52 0)
-		(size 95.25 16.51)
+		(size 95.25 13.97)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -8363,7 +8363,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SK9822"
+		(property "Value" "HD107S"
 			(at 113.9033 59.69 0)
 			(effects
 				(font
@@ -9876,7 +9876,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SK9822"
+		(property "Value" "HD107S"
 			(at 94.8533 59.69 0)
 			(effects
 				(font
