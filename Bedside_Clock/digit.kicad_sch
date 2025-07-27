@@ -4,7 +4,150 @@
 	(generator_version "9.0")
 	(uuid "41b68b36-7e2a-4b7b-b336-bd594859ebc6")
 	(paper "A4")
+	(title_block
+		(title "Bedside Clock")
+		(company "Matthew Haahr")
+	)
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Graphic:SYM_Arrow_Small"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -726,8 +869,8 @@
 		)
 	)
 	(rectangle
-		(start 229.235 28.575)
-		(end 230.505 29.845)
+		(start 62.865 165.735)
+		(end 64.135 167.005)
 		(stroke
 			(width 0)
 			(type solid)
@@ -740,8 +883,8 @@
 		(uuid 10fc07e4-c7c8-4211-b95c-630cd20d2a3a)
 	)
 	(rectangle
-		(start 226.695 41.275)
-		(end 227.965 42.545)
+		(start 60.325 178.435)
+		(end 61.595 179.705)
 		(stroke
 			(width 0)
 			(type solid)
@@ -754,8 +897,8 @@
 		(uuid 1be4b445-fd66-4a2f-aeae-14cb7e3cb0e7)
 	)
 	(rectangle
-		(start 229.235 53.975)
-		(end 230.505 55.245)
+		(start 62.865 191.135)
+		(end 64.135 192.405)
 		(stroke
 			(width 0)
 			(type solid)
@@ -768,8 +911,8 @@
 		(uuid 236169ea-1d26-4a9f-8974-f0803b8bb49f)
 	)
 	(rectangle
-		(start 224.155 45.085)
-		(end 222.885 46.355)
+		(start 57.785 182.245)
+		(end 56.515 183.515)
 		(stroke
 			(width 0)
 			(type solid)
@@ -782,8 +925,8 @@
 		(uuid 4968db92-202b-4ab9-b432-b98c328a8902)
 	)
 	(rectangle
-		(start 224.155 32.385)
-		(end 222.885 33.655)
+		(start 57.785 169.545)
+		(end 56.515 170.815)
 		(stroke
 			(width 0)
 			(type solid)
@@ -796,8 +939,8 @@
 		(uuid 4f036d0f-52c3-4cce-8936-13d75d8be799)
 	)
 	(rectangle
-		(start 235.585 47.625)
-		(end 236.855 48.895)
+		(start 69.215 184.785)
+		(end 70.485 186.055)
 		(stroke
 			(width 0)
 			(type solid)
@@ -810,8 +953,8 @@
 		(uuid 510470f2-1240-4efc-9e47-b5df64119eff)
 	)
 	(rectangle
-		(start 236.855 50.165)
-		(end 235.585 51.435)
+		(start 70.485 187.325)
+		(end 69.215 188.595)
 		(stroke
 			(width 0)
 			(type solid)
@@ -824,8 +967,8 @@
 		(uuid 58b8b92c-d5ee-4803-bafc-8d65e43f63a2)
 	)
 	(rectangle
-		(start 236.855 45.085)
-		(end 235.585 46.355)
+		(start 70.485 182.245)
+		(end 69.215 183.515)
 		(stroke
 			(width 0)
 			(type solid)
@@ -838,8 +981,8 @@
 		(uuid 60fcd02f-4a69-4a2a-ba04-d2f84b86d534)
 	)
 	(rectangle
-		(start 226.695 28.575)
-		(end 227.965 29.845)
+		(start 60.325 165.735)
+		(end 61.595 167.005)
 		(stroke
 			(width 0)
 			(type solid)
@@ -852,8 +995,8 @@
 		(uuid 70376281-0b7b-44aa-895e-b8a2f35fb066)
 	)
 	(rectangle
-		(start 224.155 37.465)
-		(end 222.885 38.735)
+		(start 57.785 174.625)
+		(end 56.515 175.895)
 		(stroke
 			(width 0)
 			(type solid)
@@ -866,8 +1009,8 @@
 		(uuid 7c4fc3fd-aa25-466d-b3fb-2e5f430df6fb)
 	)
 	(rectangle
-		(start 229.235 41.275)
-		(end 230.505 42.545)
+		(start 62.865 178.435)
+		(end 64.135 179.705)
 		(stroke
 			(width 0)
 			(type solid)
@@ -880,8 +1023,8 @@
 		(uuid 87e7e444-e0af-4d05-b3e6-a8c105001ab7)
 	)
 	(rectangle
-		(start 224.155 47.625)
-		(end 222.885 48.895)
+		(start 57.785 184.785)
+		(end 56.515 186.055)
 		(stroke
 			(width 0)
 			(type solid)
@@ -894,8 +1037,8 @@
 		(uuid 8c98b9b7-b526-4099-897e-f7e9b94a75fb)
 	)
 	(rectangle
-		(start 231.775 28.575)
-		(end 233.045 29.845)
+		(start 65.405 165.735)
+		(end 66.675 167.005)
 		(stroke
 			(width 0)
 			(type solid)
@@ -908,8 +1051,8 @@
 		(uuid a4b31b5d-a53f-47d2-9e77-5f44a4a899ce)
 	)
 	(rectangle
-		(start 236.855 34.29)
-		(end 235.585 35.56)
+		(start 70.485 171.45)
+		(end 69.215 172.72)
 		(stroke
 			(width 0)
 			(type solid)
@@ -922,8 +1065,8 @@
 		(uuid a88ce4e0-45e3-4f45-8501-796eedf5eac9)
 	)
 	(rectangle
-		(start 236.855 36.83)
-		(end 235.585 38.1)
+		(start 70.485 173.99)
+		(end 69.215 175.26)
 		(stroke
 			(width 0)
 			(type solid)
@@ -936,8 +1079,8 @@
 		(uuid b79f2f34-9347-4f91-9436-cca327e197c7)
 	)
 	(rectangle
-		(start 231.775 41.275)
-		(end 233.045 42.545)
+		(start 65.405 178.435)
+		(end 66.675 179.705)
 		(stroke
 			(width 0)
 			(type solid)
@@ -950,8 +1093,8 @@
 		(uuid b7ea8eb0-6f6b-460e-9f60-bc649c6dccf4)
 	)
 	(rectangle
-		(start 236.855 31.75)
-		(end 235.585 33.02)
+		(start 70.485 168.91)
+		(end 69.215 170.18)
 		(stroke
 			(width 0)
 			(type solid)
@@ -964,8 +1107,8 @@
 		(uuid bec8d08c-25a4-4b24-90d1-9f9710a69a55)
 	)
 	(rectangle
-		(start 224.155 34.925)
-		(end 222.885 36.195)
+		(start 57.785 172.085)
+		(end 56.515 173.355)
 		(stroke
 			(width 0)
 			(type solid)
@@ -978,8 +1121,8 @@
 		(uuid c26a0133-784a-41d4-996d-bdc0fae8ee78)
 	)
 	(rectangle
-		(start 226.695 53.975)
-		(end 227.965 55.245)
+		(start 60.325 191.135)
+		(end 61.595 192.405)
 		(stroke
 			(width 0)
 			(type solid)
@@ -992,8 +1135,8 @@
 		(uuid da7201b7-9976-48c0-8504-ca4647b6a31e)
 	)
 	(rectangle
-		(start 224.155 50.165)
-		(end 222.885 51.435)
+		(start 57.785 187.325)
+		(end 56.515 188.595)
 		(stroke
 			(width 0)
 			(type solid)
@@ -1006,8 +1149,8 @@
 		(uuid dd03b359-d438-4144-84cd-18817133fd52)
 	)
 	(rectangle
-		(start 231.775 53.975)
-		(end 233.045 55.245)
+		(start 65.405 191.135)
+		(end 66.675 192.405)
 		(stroke
 			(width 0)
 			(type solid)
@@ -1020,16 +1163,46 @@
 		(uuid f8f6b9bb-ce81-45ee-93ea-f62179d7f513)
 	)
 	(junction
+		(at 250.19 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07f14384-6d4e-49c4-90b2-af992d0329f5")
+	)
+	(junction
+		(at 236.22 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13beae5d-05f9-4274-b1f9-28302c44a5d8")
+	)
+	(junction
 		(at 63.5 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1764404c-de11-40ca-bc44-6efa097b8eaf")
 	)
 	(junction
+		(at 180.34 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ae53ab0-0e4c-43a1-bf55-20da332918d6")
+	)
+	(junction
 		(at 82.55 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e4339b6-8fec-4960-8a94-000f17709b8b")
+	)
+	(junction
+		(at 222.25 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22cd6633-29a7-4be3-aa36-b23cea4ef7fe")
+	)
+	(junction
+		(at 250.19 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27c0eb26-db1c-42a9-a118-9db2f4c934f3")
 	)
 	(junction
 		(at 63.5 105.41)
@@ -1044,16 +1217,40 @@
 		(uuid "34867286-9533-402e-b26b-8f7232c09385")
 	)
 	(junction
+		(at 180.34 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3608139e-7fb0-44d7-9292-ba03813f20b0")
+	)
+	(junction
 		(at 44.45 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "390aef7d-2b6e-4cb1-b049-b938d419d027")
 	)
 	(junction
+		(at 194.31 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f714a13-d305-40ed-b489-900b0abe0eeb")
+	)
+	(junction
+		(at 208.28 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "432140da-eada-4875-ad08-c352ef27ed8c")
+	)
+	(junction
 		(at 101.6 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45ad5c86-c798-4312-8cf0-62826ff4c4e4")
+	)
+	(junction
+		(at 236.22 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47596fd9-5058-4757-9aed-983204013dc5")
 	)
 	(junction
 		(at 139.7 77.47)
@@ -1066,6 +1263,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4bb2f9dd-6e37-43a5-8cdb-7a2af07df0ea")
+	)
+	(junction
+		(at 208.28 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c6e29c6-69a8-445a-8e3c-98bba31af126")
+	)
+	(junction
+		(at 222.25 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d6fba24-4e70-4cb1-aa35-8f213937c985")
 	)
 	(junction
 		(at 120.65 105.41)
@@ -1098,10 +1307,40 @@
 		(uuid "60a9c9ef-6ff0-465e-ad18-eb9783b10629")
 	)
 	(junction
+		(at 208.28 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60d5e45c-77b8-46ba-9dbf-f6171b03a0a7")
+	)
+	(junction
+		(at 194.31 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "638dea0a-b53a-404c-9d45-fdd20e163d38")
+	)
+	(junction
 		(at 120.65 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "667fc673-2e77-4a65-8532-1eeebec6d1ac")
+	)
+	(junction
+		(at 180.34 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bf1171c-3c6a-4bbb-8a4e-ed2ab62806d4")
+	)
+	(junction
+		(at 180.34 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fca9c43-41b1-4277-ac33-1c1f66a905fb")
+	)
+	(junction
+		(at 222.25 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71da239a-e04f-4b81-a046-fdbba3153bd3")
 	)
 	(junction
 		(at 101.6 77.47)
@@ -1116,6 +1355,18 @@
 		(uuid "7e5e8b8e-1028-4556-8f58-045122582b4c")
 	)
 	(junction
+		(at 222.25 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f094aaa-84f6-4257-b1d2-b959753b27f3")
+	)
+	(junction
+		(at 236.22 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "839a0106-5f47-4635-91d3-a6a7c3ca4169")
+	)
+	(junction
 		(at 139.7 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1126,6 +1377,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "854a013c-172b-4b78-a9c2-feff6ac90f1b")
+	)
+	(junction
+		(at 180.34 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "872af242-0ecf-41ca-86c2-215dbdab8685")
 	)
 	(junction
 		(at 139.7 29.21)
@@ -1164,10 +1421,46 @@
 		(uuid "9d4070ad-dd6c-4984-8ed5-c67ebbbfc8e4")
 	)
 	(junction
+		(at 250.19 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a513cbc8-9971-4e34-a1ec-73a91e45d569")
+	)
+	(junction
+		(at 208.28 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a82c24d5-c82e-4641-8999-9d7239138fce")
+	)
+	(junction
+		(at 222.25 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a892a4d0-d44c-41d5-9b30-47db20eea72a")
+	)
+	(junction
 		(at 63.5 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0502a5d-5394-4573-8cc0-979042df3b85")
+	)
+	(junction
+		(at 194.31 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b348a569-a965-4257-8cc5-f1dc804fb961")
+	)
+	(junction
+		(at 194.31 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7825bc5-969d-44ad-ae1e-b57bb6631644")
+	)
+	(junction
+		(at 208.28 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b87f971a-baa0-4f2b-b329-433cca97e8ff")
 	)
 	(junction
 		(at 120.65 57.15)
@@ -1176,10 +1469,34 @@
 		(uuid "b8f373f2-e38c-4816-bb2d-77c1cbddd7ad")
 	)
 	(junction
+		(at 250.19 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba254acd-3d28-4488-a240-e5fca8d944b2")
+	)
+	(junction
 		(at 82.55 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba4aa00b-5846-433c-9937-608f8957e28c")
+	)
+	(junction
+		(at 194.31 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "becd1612-dd8a-4159-a055-8be396062128")
+	)
+	(junction
+		(at 236.22 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1882b9c-9d2f-40da-b93c-397b51b90252")
+	)
+	(junction
+		(at 236.22 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3b32378-834b-4642-84e8-e244701cdd2d")
 	)
 	(junction
 		(at 63.5 57.15)
@@ -1188,10 +1505,28 @@
 		(uuid "c48e3d34-d83b-496b-b2ff-b9d385a3ce8f")
 	)
 	(junction
+		(at 250.19 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c55aba6b-af3c-42cb-92fe-48d17861c7d0")
+	)
+	(junction
 		(at 82.55 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd164ed0-c08e-488f-beb4-2be247d78710")
+	)
+	(junction
+		(at 222.25 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d17e8484-fc6d-4ab5-9578-e9a42f958a40")
+	)
+	(junction
+		(at 208.28 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3edc493-b16d-435c-a8e5-ed261831c124")
 	)
 	(junction
 		(at 101.6 125.73)
@@ -1230,10 +1565,34 @@
 		(uuid "ee906a52-b84c-4970-8334-8ceaf6e92f57")
 	)
 	(junction
+		(at 236.22 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eece30b0-b2cd-40d6-8575-40f357367b9f")
+	)
+	(junction
 		(at 44.45 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2a2f1cd-fa76-4bde-a9bc-dd650b162fa0")
+	)
+	(junction
+		(at 194.31 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3030a68-f141-4354-a447-7b05ecc3cfe1")
+	)
+	(junction
+		(at 180.34 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f72d78c7-5b5a-4ec4-8b72-d8d11d6694dd")
+	)
+	(junction
+		(at 250.19 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc5bd3cc-e605-4110-88c9-4818cef1051e")
 	)
 	(wire
 		(pts
@@ -1247,6 +1606,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 83.82) (xy 264.16 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03ca1628-155e-41b8-97fd-a88d2b4e3048")
+	)
+	(wire
+		(pts
 			(xy 139.7 132.08) (xy 139.7 125.73)
 		)
 		(stroke
@@ -1254,6 +1623,96 @@
 			(type default)
 		)
 		(uuid "0415f948-45d8-46c1-a579-562dc2eff805")
+	)
+	(wire
+		(pts
+			(xy 194.31 96.52) (xy 194.31 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04571fef-a4cb-4d6d-8d16-d54460d92a51")
+	)
+	(wire
+		(pts
+			(xy 194.31 83.82) (xy 194.31 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04bced7e-f384-4238-aea7-9831d2cfccca")
+	)
+	(wire
+		(pts
+			(xy 264.16 35.56) (xy 264.16 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "057cad5e-0605-4ab1-8e40-4e2756b4f7a0")
+	)
+	(wire
+		(pts
+			(xy 180.34 48.26) (xy 180.34 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c86a13-3a62-417a-9c71-5e34f48ff3c3")
+	)
+	(wire
+		(pts
+			(xy 236.22 132.08) (xy 250.19 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d453d2-9345-4ec2-a34a-b19f975efa97")
+	)
+	(wire
+		(pts
+			(xy 222.25 48.26) (xy 208.28 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06743412-47ce-4066-a32f-75683f840c61")
+	)
+	(wire
+		(pts
+			(xy 250.19 83.82) (xy 250.19 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07332147-a94b-4a09-8709-a87a1c69891f")
+	)
+	(wire
+		(pts
+			(xy 194.31 48.26) (xy 194.31 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08a86c26-5acc-4b6b-8401-b492b0783554")
+	)
+	(wire
+		(pts
+			(xy 264.16 96.52) (xy 250.19 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09b2ce21-a655-4164-b6a9-61cb84b66d33")
 	)
 	(wire
 		(pts
@@ -1277,6 +1736,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 35.56) (xy 222.25 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ee6be2c-2f87-4941-bc5d-417945076518")
+	)
+	(wire
+		(pts
 			(xy 158.75 29.21) (xy 139.7 29.21)
 		)
 		(stroke
@@ -1284,6 +1753,36 @@
 			(type default)
 		)
 		(uuid "0f4d88c8-0041-445b-aaa4-35a319dc2403")
+	)
+	(wire
+		(pts
+			(xy 250.19 48.26) (xy 236.22 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1068083e-6b09-4ea6-a7dd-34ba6397326e")
+	)
+	(wire
+		(pts
+			(xy 180.34 132.08) (xy 194.31 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b8ae16-7101-4cba-bd13-7d825aedeba7")
+	)
+	(wire
+		(pts
+			(xy 194.31 35.56) (xy 208.28 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10c8f136-d81d-4e35-b7ce-62de056e7463")
 	)
 	(wire
 		(pts
@@ -1304,6 +1803,16 @@
 			(type default)
 		)
 		(uuid "11943a2a-bad7-4fb2-a83c-76163014ea24")
+	)
+	(wire
+		(pts
+			(xy 194.31 144.78) (xy 180.34 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1325367c-8b02-4104-929d-c5f43c1cef9a")
 	)
 	(wire
 		(pts
@@ -1344,6 +1853,36 @@
 			(type default)
 		)
 		(uuid "17d0fbf0-2994-4d9f-9ce4-04287696c577")
+	)
+	(wire
+		(pts
+			(xy 264.16 144.78) (xy 250.19 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "196ae5eb-cd41-465b-adb6-ba07acfa2c4c")
+	)
+	(wire
+		(pts
+			(xy 222.25 35.56) (xy 236.22 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1acf6e9e-f86a-4507-9613-4d49c2d8118a")
+	)
+	(wire
+		(pts
+			(xy 222.25 35.56) (xy 222.25 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ba7ed52-946b-4347-9393-b1d5e79368be")
 	)
 	(wire
 		(pts
@@ -1397,6 +1936,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 48.26) (xy 250.19 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2184682a-1305-44e2-871b-3691d1eaa570")
+	)
+	(wire
+		(pts
 			(xy 82.55 35.56) (xy 82.55 29.21)
 		)
 		(stroke
@@ -1417,6 +1966,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 132.08) (xy 208.28 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "261f62b0-2a76-428c-9c1c-d28a6a08bbc3")
+	)
+	(wire
+		(pts
 			(xy 166.37 40.64) (xy 168.91 40.64)
 		)
 		(stroke
@@ -1424,6 +1983,36 @@
 			(type default)
 		)
 		(uuid "264d406f-f6f0-4025-bc93-009675140db4")
+	)
+	(wire
+		(pts
+			(xy 208.28 144.78) (xy 208.28 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "268cdcb7-7515-417b-b083-157dca07764d")
+	)
+	(wire
+		(pts
+			(xy 236.22 132.08) (xy 236.22 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26e5f19d-2e7a-41da-9364-afed6ab8eead")
+	)
+	(wire
+		(pts
+			(xy 222.25 48.26) (xy 222.25 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28810796-0ee5-48e0-b78b-d3ae51a43d07")
 	)
 	(wire
 		(pts
@@ -1435,9 +2024,29 @@
 		)
 		(uuid "2a421cde-03d6-4fbe-ba10-fe105e73f088")
 	)
+	(wire
+		(pts
+			(xy 236.22 35.56) (xy 250.19 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d62574a-7a35-463f-b91c-dda92f92aacf")
+	)
+	(wire
+		(pts
+			(xy 208.28 96.52) (xy 208.28 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31af22d8-c66c-4af8-8d3f-3e130e6496e5")
+	)
 	(polyline
 		(pts
-			(xy 236.22 43.18) (xy 236.22 53.34)
+			(xy 69.85 180.34) (xy 69.85 190.5)
 		)
 		(stroke
 			(width 0)
@@ -1497,6 +2106,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 35.56) (xy 208.28 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36ad6dae-4e6f-4340-b213-e42cc8e3925e")
+	)
+	(wire
+		(pts
 			(xy 82.55 105.41) (xy 63.5 105.41)
 		)
 		(stroke
@@ -1504,6 +2123,36 @@
 			(type default)
 		)
 		(uuid "370940b2-5b12-4f43-8cea-fda713eb8cd7")
+	)
+	(wire
+		(pts
+			(xy 250.19 132.08) (xy 264.16 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37b56ff0-dd62-4406-b969-e53d538d5b8f")
+	)
+	(wire
+		(pts
+			(xy 236.22 35.56) (xy 236.22 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "383f048f-4ce4-4245-b638-6a8302a75a2e")
+	)
+	(wire
+		(pts
+			(xy 208.28 132.08) (xy 222.25 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "385ada93-834c-4a93-96ed-754b7bd169a2")
 	)
 	(wire
 		(pts
@@ -1537,6 +2186,46 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 96.52) (xy 180.34 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c3d3124-46a6-46d9-ac98-0afe93e0b0e3")
+	)
+	(wire
+		(pts
+			(xy 250.19 144.78) (xy 236.22 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce8dc3a-3931-479c-8045-28c0f7d0115a")
+	)
+	(wire
+		(pts
+			(xy 222.25 96.52) (xy 222.25 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e9d5838-a5dd-45a1-8253-2ee6444404ba")
+	)
+	(wire
+		(pts
+			(xy 180.34 144.78) (xy 180.34 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fa4febb-a42f-4cc5-bbbb-923189ed27fa")
+	)
+	(wire
+		(pts
 			(xy 158.75 35.56) (xy 158.75 29.21)
 		)
 		(stroke
@@ -1564,6 +2253,16 @@
 			(type default)
 		)
 		(uuid "47ccda8a-2979-48a6-ad03-b1f9a1952f24")
+	)
+	(wire
+		(pts
+			(xy 236.22 96.52) (xy 236.22 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48fdc6b3-8c4e-4165-a4df-f10def249cc3")
 	)
 	(wire
 		(pts
@@ -1607,6 +2306,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 96.52) (xy 222.25 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a8413e6-deab-43a1-93d3-b7af950e1b39")
+	)
+	(wire
+		(pts
 			(xy 82.55 57.15) (xy 101.6 57.15)
 		)
 		(stroke
@@ -1647,6 +2356,26 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 83.82) (xy 236.22 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f9a4db6-554c-4819-a717-a9bf401f12aa")
+	)
+	(wire
+		(pts
+			(xy 180.34 86.36) (xy 180.34 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ffd4c0f-113c-4593-9ac3-3a58a94808bd")
+	)
+	(wire
+		(pts
 			(xy 44.45 77.47) (xy 63.5 77.47)
 		)
 		(stroke
@@ -1654,6 +2383,16 @@
 			(type default)
 		)
 		(uuid "50166412-7410-4445-80e8-5ca5c5c5002b")
+	)
+	(wire
+		(pts
+			(xy 208.28 83.82) (xy 222.25 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50de205e-4248-4729-899a-448657afbdb6")
 	)
 	(wire
 		(pts
@@ -1667,6 +2406,36 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 83.82) (xy 208.28 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a77727-2c87-4bfd-ba98-f55d06db331f")
+	)
+	(wire
+		(pts
+			(xy 180.34 129.54) (xy 180.34 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55469cd8-610d-4966-9ae3-fdbc092a4c30")
+	)
+	(wire
+		(pts
+			(xy 180.34 35.56) (xy 194.31 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58974a17-d2f1-44b9-bc05-ddf5fcf86863")
+	)
+	(wire
+		(pts
 			(xy 166.37 137.16) (xy 168.91 137.16)
 		)
 		(stroke
@@ -1674,6 +2443,16 @@
 			(type default)
 		)
 		(uuid "58ad2c41-a6ef-4aa7-aca3-83b3ee8e4819")
+	)
+	(wire
+		(pts
+			(xy 180.34 48.26) (xy 180.34 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59902ed0-ae45-4f12-8341-c76cf7a2ef4b")
 	)
 	(wire
 		(pts
@@ -1717,6 +2496,26 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 83.82) (xy 194.31 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c72c7f9-f93e-49f4-9ea5-dc00ebabe049")
+	)
+	(wire
+		(pts
+			(xy 180.34 96.52) (xy 180.34 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c9b4553-5b15-46ee-8f5c-1c1a3f773656")
+	)
+	(wire
+		(pts
 			(xy 74.93 91.44) (xy 71.12 91.44)
 		)
 		(stroke
@@ -1727,6 +2526,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 48.26) (xy 236.22 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d92c7ef-65ad-4e62-b749-3539593ffad7")
+	)
+	(wire
+		(pts
 			(xy 82.55 83.82) (xy 82.55 77.47)
 		)
 		(stroke
@@ -1734,6 +2543,26 @@
 			(type default)
 		)
 		(uuid "5dca5c09-fc65-4e31-9c25-795870f233dd")
+	)
+	(wire
+		(pts
+			(xy 194.31 83.82) (xy 208.28 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "603f2bcb-0050-41a3-bfdf-c6961af917ce")
+	)
+	(wire
+		(pts
+			(xy 194.31 96.52) (xy 180.34 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60e3dfd5-9033-4713-b1d6-edce3f0ca13a")
 	)
 	(wire
 		(pts
@@ -1767,6 +2596,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 48.26) (xy 194.31 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f7da47-77b1-4436-9eea-37f8931717fa")
+	)
+	(wire
+		(pts
 			(xy 63.5 147.32) (xy 63.5 153.67)
 		)
 		(stroke
@@ -1784,6 +2623,36 @@
 			(type default)
 		)
 		(uuid "66a4cfb3-f4c0-4f1e-82f5-e2546b1d714f")
+	)
+	(wire
+		(pts
+			(xy 264.16 83.82) (xy 264.16 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66fcd02d-1477-4c35-9d35-a9175038809e")
+	)
+	(wire
+		(pts
+			(xy 250.19 48.26) (xy 250.19 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68d3e847-b568-4005-b224-879cf46ab0d7")
+	)
+	(wire
+		(pts
+			(xy 180.34 38.1) (xy 180.34 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6907a731-41ad-4e2e-90fd-8a8d4a278dd0")
 	)
 	(wire
 		(pts
@@ -1827,6 +2696,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 144.78) (xy 208.28 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70cf0d24-e748-4274-95a3-1a744c15cee5")
+	)
+	(wire
+		(pts
 			(xy 44.45 125.73) (xy 44.45 132.08)
 		)
 		(stroke
@@ -1834,6 +2713,16 @@
 			(type default)
 		)
 		(uuid "710de0c9-087f-457e-818e-e7bf02bcf26a")
+	)
+	(wire
+		(pts
+			(xy 250.19 144.78) (xy 250.19 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71be3148-3f7f-44fe-ae73-e85b35f61677")
 	)
 	(wire
 		(pts
@@ -1847,6 +2736,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 35.56) (xy 250.19 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7540c2c5-42df-4180-9921-e9da3ace0992")
+	)
+	(wire
+		(pts
 			(xy 74.93 88.9) (xy 71.12 88.9)
 		)
 		(stroke
@@ -1857,6 +2756,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 33.02) (xy 180.34 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77bd01e8-935f-4447-b40b-07a3d94168b1")
+	)
+	(wire
+		(pts
 			(xy 44.45 57.15) (xy 44.45 59.69)
 		)
 		(stroke
@@ -1864,6 +2773,46 @@
 			(type default)
 		)
 		(uuid "7869964c-dbfd-4de2-9c03-734f18e056f5")
+	)
+	(wire
+		(pts
+			(xy 264.16 93.98) (xy 264.16 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79ae0778-7edc-4f65-81a6-8b3ed575b1ce")
+	)
+	(wire
+		(pts
+			(xy 250.19 35.56) (xy 264.16 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a6cd569-a8b1-4cc0-8264-736913a2ebf8")
+	)
+	(wire
+		(pts
+			(xy 208.28 144.78) (xy 194.31 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b279573-758e-4b4e-948e-ec317b665a6f")
+	)
+	(wire
+		(pts
+			(xy 250.19 132.08) (xy 250.19 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b360133-6ef8-4556-bcb4-40bbaea32bc9")
 	)
 	(wire
 		(pts
@@ -1937,6 +2886,26 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 132.08) (xy 222.25 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "839cf604-40fe-44ef-937d-0840b70b8426")
+	)
+	(wire
+		(pts
+			(xy 264.16 45.72) (xy 264.16 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "846ad43b-bfa2-45dc-bbab-e22433a3dff5")
+	)
+	(wire
+		(pts
 			(xy 120.65 153.67) (xy 139.7 153.67)
 		)
 		(stroke
@@ -1944,6 +2913,16 @@
 			(type default)
 		)
 		(uuid "853605d0-823f-4a3e-9ac5-c7ee1418cd94")
+	)
+	(wire
+		(pts
+			(xy 194.31 35.56) (xy 194.31 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87928f3d-fa8f-4f11-a268-bedd3fa59caa")
 	)
 	(wire
 		(pts
@@ -1984,6 +2963,26 @@
 			(type default)
 		)
 		(uuid "8acad24a-74bd-479b-96dc-81471b995d6f")
+	)
+	(wire
+		(pts
+			(xy 222.25 132.08) (xy 236.22 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c1d0aca-6990-4fbd-b176-43d2d168faae")
+	)
+	(wire
+		(pts
+			(xy 222.25 144.78) (xy 222.25 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d6cdff3-8b29-4617-835b-3685c9bb878c")
 	)
 	(wire
 		(pts
@@ -2077,13 +3076,23 @@
 	)
 	(polyline
 		(pts
-			(xy 224.79 41.91) (xy 234.95 41.91)
+			(xy 58.42 179.07) (xy 68.58 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "983f3ca1-d53b-4bec-9b4c-985e67fa25a2")
+	)
+	(wire
+		(pts
+			(xy 264.16 132.08) (xy 264.16 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "990e6c81-faff-407d-a658-5b1bc2e37355")
 	)
 	(wire
 		(pts
@@ -2097,7 +3106,7 @@
 	)
 	(polyline
 		(pts
-			(xy 224.79 54.61) (xy 234.95 54.61)
+			(xy 58.42 191.77) (xy 68.58 191.77)
 		)
 		(stroke
 			(width 0)
@@ -2157,6 +3166,26 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 83.82) (xy 222.25 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a18866af-0036-497e-a17a-baccc5f328bb")
+	)
+	(wire
+		(pts
+			(xy 180.34 144.78) (xy 180.34 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a350ff40-3cf7-4bbd-a2d9-93a81c2a85a1")
+	)
+	(wire
+		(pts
 			(xy 63.5 132.08) (xy 63.5 125.73)
 		)
 		(stroke
@@ -2177,6 +3206,36 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 81.28) (xy 180.34 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5d932f4-acc3-4021-890a-ba1286191c11")
+	)
+	(wire
+		(pts
+			(xy 236.22 144.78) (xy 236.22 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7efa234-3af6-41b1-ad95-ec1c0f19e2a9")
+	)
+	(wire
+		(pts
+			(xy 180.34 134.62) (xy 180.34 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a85ab030-5f73-42a8-b7cf-ba0340efbff1")
+	)
+	(wire
+		(pts
 			(xy 120.65 35.56) (xy 120.65 29.21)
 		)
 		(stroke
@@ -2184,6 +3243,16 @@
 			(type default)
 		)
 		(uuid "a926e5bf-73f2-46a1-81ab-f7f89f09e73c")
+	)
+	(wire
+		(pts
+			(xy 250.19 96.52) (xy 250.19 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a96463cf-1fd0-4159-a811-de2f50fd264e")
 	)
 	(wire
 		(pts
@@ -2237,6 +3306,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 48.26) (xy 222.25 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b04ea37f-c785-45c8-baae-468ba3f4ebd0")
+	)
+	(wire
+		(pts
 			(xy 120.65 147.32) (xy 120.65 153.67)
 		)
 		(stroke
@@ -2284,6 +3363,16 @@
 			(type default)
 		)
 		(uuid "b9e6a9c6-1a3e-479d-9280-761665ec5fd9")
+	)
+	(wire
+		(pts
+			(xy 222.25 96.52) (xy 208.28 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb5d0dbb-173b-4960-94f5-e67f42a894cb")
 	)
 	(wire
 		(pts
@@ -2337,6 +3426,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 132.08) (xy 208.28 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c032644c-94df-4654-a390-2966d6346b2d")
+	)
+	(wire
+		(pts
 			(xy 63.5 57.15) (xy 82.55 57.15)
 		)
 		(stroke
@@ -2345,15 +3444,35 @@
 		)
 		(uuid "c09f7dff-c9d6-4632-bbd1-3e55437e5ff3")
 	)
+	(wire
+		(pts
+			(xy 194.31 144.78) (xy 194.31 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0a8eacb-e7d4-4d39-ab1b-15487e38b826")
+	)
 	(polyline
 		(pts
-			(xy 223.52 30.48) (xy 223.52 40.64)
+			(xy 57.15 167.64) (xy 57.15 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c10f7632-e53a-4a78-bcde-5bd1f092d5d8")
+	)
+	(wire
+		(pts
+			(xy 236.22 83.82) (xy 236.22 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c36b7099-60d5-449c-9272-1bc5f8cb3a88")
 	)
 	(wire
 		(pts
@@ -2367,6 +3486,26 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 132.08) (xy 194.31 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8833c38-ccd4-4f6f-a96a-568e7f5f9e49")
+	)
+	(wire
+		(pts
+			(xy 250.19 96.52) (xy 236.22 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9c6cf47-7dc4-4e99-9d07-1f58f218175e")
+	)
+	(wire
+		(pts
 			(xy 166.37 139.7) (xy 168.91 139.7)
 		)
 		(stroke
@@ -2377,13 +3516,23 @@
 	)
 	(polyline
 		(pts
-			(xy 224.79 29.21) (xy 234.95 29.21)
+			(xy 58.42 166.37) (xy 68.58 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d82c8c0b-42e1-4927-9e19-c79fe6a6e859")
+	)
+	(wire
+		(pts
+			(xy 208.28 96.52) (xy 194.31 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d845308f-22be-48a9-957b-73b4a858b790")
 	)
 	(wire
 		(pts
@@ -2437,6 +3586,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 48.26) (xy 208.28 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1c4165e-8b42-4ce0-aa7b-1a87e1be00bb")
+	)
+	(wire
+		(pts
 			(xy 113.03 88.9) (xy 109.22 88.9)
 		)
 		(stroke
@@ -2464,6 +3623,26 @@
 			(type default)
 		)
 		(uuid "e45d0ad9-eec3-4fa3-8b2e-69245d2e2391")
+	)
+	(wire
+		(pts
+			(xy 264.16 142.24) (xy 264.16 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a07472-9257-46bf-8f7f-262ca5c6a7bc")
+	)
+	(wire
+		(pts
+			(xy 236.22 83.82) (xy 250.19 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e59fe3ad-f537-45d2-8260-2f49e9843f98")
 	)
 	(wire
 		(pts
@@ -2514,6 +3693,26 @@
 			(type default)
 		)
 		(uuid "ec4fdea8-f6d5-499f-b640-9fcb9cb37bf6")
+	)
+	(wire
+		(pts
+			(xy 194.31 48.26) (xy 180.34 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb9f092-f8d9-4f9e-84b6-2c294660c9e7")
+	)
+	(wire
+		(pts
+			(xy 236.22 144.78) (xy 222.25 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd17166-4adc-49e3-92b9-9e8a75bdb918")
 	)
 	(wire
 		(pts
@@ -2607,7 +3806,7 @@
 	)
 	(polyline
 		(pts
-			(xy 223.52 43.18) (xy 223.52 53.34)
+			(xy 57.15 180.34) (xy 57.15 190.5)
 		)
 		(stroke
 			(width 0)
@@ -2657,7 +3856,7 @@
 	)
 	(polyline
 		(pts
-			(xy 236.22 30.48) (xy 236.22 40.64)
+			(xy 69.85 167.64) (xy 69.85 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2711,7 +3910,7 @@
 	)
 	(symbol
 		(lib_id "Graphic:SYM_Arrow_Small")
-		(at 229.87 41.91 180)
+		(at 63.5 179.07 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2719,8 +3918,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0041aac7-b881-4554-8f61-29b815250a70")
-		(property "Reference" "#SYM?"
-			(at 229.87 43.434 0)
+		(property "Reference" "#SYM32"
+			(at 63.5 180.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2729,7 +3928,7 @@
 			)
 		)
 		(property "Value" "SYM_Arrow_Small"
-			(at 229.616 40.64 0)
+			(at 63.246 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2738,7 +3937,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 41.91 0)
+			(at 63.5 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2747,7 +3946,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 41.91 0)
+			(at 63.5 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2756,7 +3955,7 @@
 			)
 		)
 		(property "Description" "Filled arrow, 160mil"
-			(at 229.87 41.91 0)
+			(at 63.5 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2766,20 +3965,20 @@
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
 					(reference "#SYM23")
 					(unit 1)
 				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "#SYM14")
+					(unit 1)
+				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
-					(reference "#SYM?")
+					(reference "#SYM32")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
 					(reference "#SYM5")
-					(unit 1)
-				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "#SYM50")
 					(unit 1)
 				)
 			)
@@ -2853,39 +4052,39 @@
 			)
 		)
 		(pin "5"
-			(uuid "990caf2b-ac26-48d6-8197-2136257d5669")
+			(uuid "d52f002f-a18d-4d73-8ef2-1d46f11883a9")
 		)
 		(pin "1"
-			(uuid "28dc5bb2-093a-4790-897f-615f32a4c1e7")
+			(uuid "9a287ffe-e7b9-4b7c-bcaf-ff8ec25ca01b")
 		)
 		(pin "2"
-			(uuid "037087cc-94d7-469a-b85f-a17bb76ca31c")
+			(uuid "f1ad5273-2203-41d0-8052-7d7838bbc036")
 		)
 		(pin "4"
-			(uuid "e0371e17-a55b-45d8-9a18-678c89f99890")
+			(uuid "c91baf71-c5c9-464e-a7f9-544b3c8b7d0a")
 		)
 		(pin "3"
-			(uuid "204b1e34-feae-4fbf-a801-b5a10a50ab7a")
+			(uuid "b9ed61a7-be91-4ae9-bb37-ed08ad7e5229")
 		)
 		(pin "6"
-			(uuid "c50b7869-bc9a-40b1-bd92-d52ecacf336e")
+			(uuid "bc3d8387-3df6-43dd-8870-4bca0c65875c")
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
-					(reference "D64")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "D73")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "D52")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
 					(reference "D8")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
-					(reference "D41")
-					(unit 1)
-				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "D127")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -2947,24 +4146,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "e560b4d0-04a6-466b-93ea-46f6cba84820")
+			(uuid "b8c779eb-c768-45ee-a74e-b5e622b760e3")
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
-					(reference "#PWR017")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "#PWR052")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "#PWR038")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
 					(reference "#PWR03")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
-					(reference "#PWR011")
-					(unit 1)
-				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "#PWR035")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3037,26 +4236,30 @@
 			)
 		)
 		(pin "5"
-			(uuid "0efb63f6-16d7-4d90-94d3-eac6b9cc84e6")
+			(uuid "8399670a-4a00-4bf4-91de-201282b74e73")
 		)
 		(pin "1"
-			(uuid "aab2c344-18f6-4e53-b88b-d5471a46a353")
+			(uuid "f843391a-48c3-4c99-9dcf-bdf1178aa26a")
 		)
 		(pin "2"
-			(uuid "7cca3e64-3f3b-4cee-bef8-cdb75b446d33")
+			(uuid "5f08f2c2-b441-4193-98d1-59dcadef7c16")
 		)
 		(pin "4"
-			(uuid "1b1341e7-9ff9-43e5-b865-70535d7b1f80")
+			(uuid "8acba9e1-d1be-4706-9197-3680303c89db")
 		)
 		(pin "3"
-			(uuid "e49671d0-ee13-46ce-b451-dd4ff6ceed48")
+			(uuid "8aa4846d-8661-443a-8771-acfef6cd66cd")
 		)
 		(pin "6"
-			(uuid "e95d63ca-3dcd-4191-9ad6-39931d698e47")
+			(uuid "361e81e4-1fe9-4671-9452-f1bc15010113")
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "D66")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
 					(reference "D45")
 					(unit 1)
 				)
@@ -3064,12 +4267,90 @@
 					(reference "D1")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
 					(reference "D22")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "D108")
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 222.25 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0aa5d8c6-bcde-4bb5-8b91-71da067ccd97")
+		(property "Reference" "C11"
+			(at 226.06 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 226.06 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 223.2152 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 222.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "addc5067-27c4-403c-9124-f45315fb6ccd")
+		)
+		(pin "2"
+			(uuid "8ac81639-ac0b-4a10-99a9-8afd5a5e52fe")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "C76")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "C55")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "C11")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -3142,39 +4423,197 @@
 			)
 		)
 		(pin "5"
-			(uuid "ac2dcf0d-1e0c-4134-a476-6a06f197101c")
+			(uuid "8fd0b93d-44e0-466a-b591-c52a0392d77e")
 		)
 		(pin "1"
-			(uuid "89ee7431-449b-4c28-b5aa-d1b4a9dac060")
+			(uuid "8926c2ec-b665-49e3-b8ad-fab778e577d2")
 		)
 		(pin "2"
-			(uuid "d504c6f7-81f9-498d-b6d1-6b3b00adfa6a")
+			(uuid "543f3d44-c4ce-4af4-bcf5-13cb203adbeb")
 		)
 		(pin "4"
-			(uuid "bbe15377-bd86-4345-9816-28db83efa95b")
+			(uuid "70041ad0-a611-42bc-a40f-65e1f767adc8")
 		)
 		(pin "3"
-			(uuid "e3df09ea-4c35-47bc-94c3-b666cc424336")
+			(uuid "38668f87-5797-4171-8172-e4db6f29b712")
 		)
 		(pin "6"
-			(uuid "957da9c1-acdb-4c07-8260-cb9f627f9344")
+			(uuid "39ce8e48-8864-4722-8217-e37583a88521")
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
-					(reference "D53")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "D82")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "D61")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
 					(reference "D17")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
-					(reference "D30")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "D38")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "D116")
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 180.34 81.28 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fe5386f-3b1d-4f0d-99f7-b4db3e0c13bf")
+		(property "Reference" "#PWR0113"
+			(at 180.34 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 180.34 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 180.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "047f1bb4-f8b0-42fe-af71-d87f9d02c031")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "#PWR058")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "#PWR044")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 180.34 129.54 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "112b0964-9a79-41fc-b337-960f8eee2ba6")
+		(property "Reference" "#PWR046"
+			(at 180.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 180.34 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 180.34 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8124779-f0c3-497b-a96f-24933f752d96")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "#PWR060")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "#PWR048")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -3182,7 +4621,7 @@
 	)
 	(symbol
 		(lib_id "Graphic:SYM_Arrow_Small")
-		(at 220.98 41.91 0)
+		(at 54.61 179.07 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3190,8 +4629,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "116e2002-4180-425f-a251-8495964525c2")
-		(property "Reference" "#SYM?"
-			(at 220.98 40.386 0)
+		(property "Reference" "#SYM28"
+			(at 54.61 177.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3200,7 +4639,7 @@
 			)
 		)
 		(property "Value" "SYM_Arrow_Small"
-			(at 221.234 43.18 0)
+			(at 54.864 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3209,7 +4648,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 41.91 0)
+			(at 54.61 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,7 +4657,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 41.91 0)
+			(at 54.61 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,7 +4666,7 @@
 			)
 		)
 		(property "Description" "Filled arrow, 160mil"
-			(at 220.98 41.91 0)
+			(at 54.61 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3237,20 +4676,20 @@
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
 					(reference "#SYM19")
 					(unit 1)
 				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "#SYM10")
+					(unit 1)
+				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
-					(reference "#SYM?")
+					(reference "#SYM28")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
 					(reference "#SYM1")
-					(unit 1)
-				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "#SYM46")
 					(unit 1)
 				)
 			)
@@ -3324,26 +4763,30 @@
 			)
 		)
 		(pin "5"
-			(uuid "cbb56cb7-f8ca-4d07-88c1-e619113a01e7")
+			(uuid "cae8fd48-f640-4333-9f65-8f09c30e77a5")
 		)
 		(pin "1"
-			(uuid "e3a37c75-2005-44f9-9994-db3ada7dc218")
+			(uuid "4bcb93f7-b0cd-43b8-b61d-89b1e878423e")
 		)
 		(pin "2"
-			(uuid "f7575968-a973-4fa7-8b6b-aa22e9a194b6")
+			(uuid "13be429e-f9dc-491f-9712-8f2b100055ff")
 		)
 		(pin "4"
-			(uuid "9bb5d851-409b-4d21-9541-efe92ef73e7a")
+			(uuid "d4693446-44c0-4f3a-8f4a-741e6a342e2e")
 		)
 		(pin "3"
-			(uuid "6d45ba5c-c804-4598-896f-83a243adf086")
+			(uuid "153ce71c-40c2-41a5-9f06-b1c758671740")
 		)
 		(pin "6"
-			(uuid "e159bebb-6ebf-4d00-ba32-e4ac5e1e84b2")
+			(uuid "d0599e74-14ac-42b7-a6e6-651d3944d70c")
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "D76")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
 					(reference "D55")
 					(unit 1)
 				)
@@ -3351,12 +4794,90 @@
 					(reference "D11")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
 					(reference "D32")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "D118")
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 180.34 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "275a4eb3-465d-4a19-ac81-408d78aa024c")
+		(property "Reference" "C1"
+			(at 184.15 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 184.15 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 181.3052 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 180.34 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23f577e8-902c-4817-b92e-3c40932734e9")
+		)
+		(pin "2"
+			(uuid "e1886bf6-712b-4500-9cad-8b98c997e68c")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "C66")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "C45")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "C1")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -3429,39 +4950,39 @@
 			)
 		)
 		(pin "5"
-			(uuid "a3478e23-ea51-4b8c-893c-41760753fd22")
+			(uuid "225a77bf-f6e2-418d-8409-30227e938842")
 		)
 		(pin "1"
-			(uuid "25debcba-3b6b-4028-b1ff-016b1d6381a2")
+			(uuid "0b0ec3a0-099a-4e38-9ed0-2e2a76b0a34e")
 		)
 		(pin "2"
-			(uuid "6caef677-e6b3-491a-a5e5-a94b64dc30c4")
+			(uuid "3cae7681-2e9a-455a-92a7-6ae5f637e268")
 		)
 		(pin "4"
-			(uuid "870f28a5-bdd2-4b57-b8ee-075bf514058b")
+			(uuid "def37a7f-9883-4253-8cd4-ef4939c2b93b")
 		)
 		(pin "3"
-			(uuid "43540222-27ef-4dad-815e-fe0d239e954f")
+			(uuid "8e1cf5b0-48c1-4b8e-8ff5-64844cf7992a")
 		)
 		(pin "6"
-			(uuid "f9bf96ca-e8c4-4a8c-9478-24d7a4469285")
+			(uuid "73d0b73b-41b9-4e33-a444-1ba159ae8ce2")
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
-					(reference "D51")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "D68")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "D47")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
 					(reference "D3")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
-					(reference "D28")
-					(unit 1)
-				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "D114")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -3534,39 +5055,39 @@
 			)
 		)
 		(pin "5"
-			(uuid "4a9534da-98a4-478a-a1a2-8b11c870d7d8")
+			(uuid "8f7db715-433f-42dc-a132-12125e72c8e4")
 		)
 		(pin "1"
-			(uuid "a86ddb5e-71c6-4076-b2b3-05c5bb6a766a")
+			(uuid "bd8fa61b-815f-4fd1-8e18-771e8193a53a")
 		)
 		(pin "2"
-			(uuid "f9413a40-5f6d-4afd-afcb-94fe465a1fe2")
+			(uuid "11408331-6841-4f84-b512-0fa1619d7b22")
 		)
 		(pin "4"
-			(uuid "745d3a39-970f-4e85-a292-4afcb708646f")
+			(uuid "89c19a29-6043-4c13-a16e-40a2bddde258")
 		)
 		(pin "3"
-			(uuid "585e2a6e-5fca-41e3-92ee-4fdd3e291009")
+			(uuid "5d98a61b-d1a8-4e10-8458-413fb50220dc")
 		)
 		(pin "6"
-			(uuid "bc0b91fe-dad8-4033-868d-dd77dd51bb1a")
+			(uuid "a43db362-b7d5-4ba8-937b-6cfa68906653")
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
-					(reference "D57")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "D70")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "D49")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
 					(reference "D5")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
-					(reference "D34")
-					(unit 1)
-				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "D120")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -3639,39 +5160,39 @@
 			)
 		)
 		(pin "5"
-			(uuid "eae3abdb-e08f-40ec-af59-2f0565c09caa")
+			(uuid "998ac3b6-aea4-4858-8dc2-12551a6d24e4")
 		)
 		(pin "1"
-			(uuid "c37f2128-f614-4c05-9434-fe28df524c76")
+			(uuid "85c228b0-109e-4083-9b27-dd81aaf38378")
 		)
 		(pin "2"
-			(uuid "4d078ad3-fc1e-4b46-aecb-9bd2b3599ef7")
+			(uuid "3398262a-8870-416d-9d6a-1745c51b0835")
 		)
 		(pin "4"
-			(uuid "6ecc460a-22ef-4ed8-9467-aee9fe94d8a4")
+			(uuid "43be65c7-68a7-4e14-85f6-c1c18554b22f")
 		)
 		(pin "3"
-			(uuid "8d33b276-31c9-4fc8-8575-8196767c60a3")
+			(uuid "85ddbefa-3c70-42b1-b668-5576a73c3de5")
 		)
 		(pin "6"
-			(uuid "23932d45-6928-4e5b-b0bf-b18acfad6708")
+			(uuid "8ef094df-d664-4383-8a2a-020f24931650")
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
-					(reference "D56")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "D83")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "D62")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
 					(reference "D18")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
-					(reference "D33")
-					(unit 1)
-				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "D119")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "D39")
 					(unit 1)
 				)
 			)
@@ -3679,7 +5200,7 @@
 	)
 	(symbol
 		(lib_id "Graphic:SYM_Arrow_Small")
-		(at 223.52 35.56 90)
+		(at 57.15 172.72 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3687,8 +5208,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36304f9a-121b-47da-819c-fc7c8c38a706")
-		(property "Reference" "#SYM?"
-			(at 221.996 35.56 0)
+		(property "Reference" "#SYM29"
+			(at 55.626 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3697,7 +5218,7 @@
 			)
 		)
 		(property "Value" "SYM_Arrow_Small"
-			(at 224.79 35.306 0)
+			(at 58.42 172.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,7 +5227,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 35.56 0)
+			(at 57.15 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3715,7 +5236,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 35.56 0)
+			(at 57.15 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3724,7 +5245,7 @@
 			)
 		)
 		(property "Description" "Filled arrow, 160mil"
-			(at 223.52 35.56 0)
+			(at 57.15 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3734,20 +5255,184 @@
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
 					(reference "#SYM20")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
-					(reference "#SYM?")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "#SYM11")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "#SYM29")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
 					(reference "#SYM2")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "#SYM47")
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 180.34 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cd17c6d-e49c-4e0b-8fe6-bf80ac22751c")
+		(property "Reference" "C8"
+			(at 184.15 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 184.15 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 181.3052 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 180.34 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6504572c-54e4-4cf9-be9f-62b19d0824c9")
+		)
+		(pin "2"
+			(uuid "d6b72de9-fe1e-4fbb-b449-93fcbf17b512")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "C73")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "C52")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "C8")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 194.31 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f43161d-96c6-49bd-a31f-538af9e5ae76")
+		(property "Reference" "C16"
+			(at 198.12 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 198.12 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 195.2752 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 194.31 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee272f19-9e50-4064-821f-08e1eb85a9e9")
+		)
+		(pin "2"
+			(uuid "f600124c-3855-4abb-b523-030b45fa28e3")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "C81")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "C60")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "C16")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -3820,39 +5505,39 @@
 			)
 		)
 		(pin "5"
-			(uuid "42b6257f-87c6-4599-8e8c-2857127f58b4")
+			(uuid "d1af32ab-bf5a-4ade-b93e-033e89a9ad49")
 		)
 		(pin "1"
-			(uuid "da8a8aab-22c6-439d-a2a1-323b4071a0ba")
+			(uuid "7de6cd18-4f50-4483-b1f5-7179bf6c5800")
 		)
 		(pin "2"
-			(uuid "b94c8785-8053-4fd7-a501-72195ff4167f")
+			(uuid "b6c11f82-e32e-4bf4-b1ba-11d2759eef41")
 		)
 		(pin "4"
-			(uuid "cd707874-ae5b-45d4-97cf-cbf3cd8215de")
+			(uuid "131f1031-ad0e-45dd-be60-7312e67cb10b")
 		)
 		(pin "3"
-			(uuid "977860c0-8032-4121-835e-892b94259205")
+			(uuid "6582675e-f408-4d28-8209-273036590725")
 		)
 		(pin "6"
-			(uuid "5da54634-1d17-40a8-b35f-3e0f8b6403aa")
+			(uuid "a1e3d6d2-bd2c-403a-82e4-68fec7b3a792")
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
-					(reference "D50")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "D81")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "D60")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
 					(reference "D16")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
-					(reference "D27")
-					(unit 1)
-				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "D113")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -3860,7 +5545,7 @@
 	)
 	(symbol
 		(lib_id "Graphic:SYM_Arrow_Small")
-		(at 236.22 35.56 270)
+		(at 69.85 172.72 270)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3868,8 +5553,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48591a3d-48b1-4c1c-921d-f47fb15bc5b8")
-		(property "Reference" "#SYM?"
-			(at 237.744 35.56 0)
+		(property "Reference" "#SYM34"
+			(at 71.374 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3878,7 +5563,7 @@
 			)
 		)
 		(property "Value" "SYM_Arrow_Small"
-			(at 234.95 35.814 0)
+			(at 68.58 172.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3887,7 +5572,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 35.56 0)
+			(at 69.85 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3896,7 +5581,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 35.56 0)
+			(at 69.85 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3905,7 +5590,7 @@
 			)
 		)
 		(property "Description" "Filled arrow, 160mil"
-			(at 236.22 35.56 0)
+			(at 69.85 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,20 +5600,20 @@
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
 					(reference "#SYM25")
 					(unit 1)
 				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "#SYM16")
+					(unit 1)
+				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
-					(reference "#SYM?")
+					(reference "#SYM34")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
 					(reference "#SYM7")
-					(unit 1)
-				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "#SYM52")
 					(unit 1)
 				)
 			)
@@ -4001,39 +5686,39 @@
 			)
 		)
 		(pin "5"
-			(uuid "1c0a99d0-4013-4d60-b15e-0b62369bc8a6")
+			(uuid "716b5e09-21f7-429c-9b77-6d655f1fdd1a")
 		)
 		(pin "1"
-			(uuid "55ead9ae-f54a-4251-a05f-90994416a077")
+			(uuid "fc37d72e-bf62-49e5-b024-e4d06cd81e83")
 		)
 		(pin "2"
-			(uuid "18fb9b7f-9e11-4c0d-bba6-02685e66b992")
+			(uuid "ed66d723-7ad0-4ee6-9648-d9667a8676c6")
 		)
 		(pin "4"
-			(uuid "051930b8-6127-4f97-a5f1-9b8eedeb6182")
+			(uuid "88cf183c-eeb1-487c-bcf7-1ea00a614238")
 		)
 		(pin "3"
-			(uuid "5a213006-b48e-4323-80e1-c1daebbdf71e")
+			(uuid "1806bd0c-d1f4-41d7-b02d-8dfa3c13b227")
 		)
 		(pin "6"
-			(uuid "5e0c30cf-fe83-4028-a36a-757b381e46bf")
+			(uuid "e2c506b6-c147-473f-a5fb-d45ddeb4fd3a")
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
-					(reference "D62")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "D85")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "D64")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
 					(reference "D20")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
-					(reference "D39")
-					(unit 1)
-				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "D125")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -4049,7 +5734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ccdda3b-8c21-401b-91aa-6553656b934d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0102"
 			(at 44.45 30.48 0)
 			(effects
 				(font
@@ -4094,24 +5779,349 @@
 			)
 		)
 		(pin "1"
-			(uuid "c8fffede-33cb-4410-973f-9f31583f223b")
+			(uuid "77cf6edd-a359-4ce1-84a4-0e49dd79f61a")
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
-					(reference "#PWR015")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "#PWR050")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "#PWR036")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
-					(reference "#PWR?")
+					(reference "#PWR0102")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
-					(reference "#PWR09")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "#PWR017")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "#PWR033")
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 250.19 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "528effaa-8644-4cbd-b73d-64673c14bbbe")
+		(property "Reference" "C20"
+			(at 254 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 254 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 251.1552 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 250.19 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c570cc22-bea5-4b91-a282-8bdb22be0b0a")
+		)
+		(pin "2"
+			(uuid "916faf9d-76a2-4cb9-9fac-b707281327d0")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "C85")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "C64")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "C20")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 208.28 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53c29343-fb8f-4404-bd7a-37c35f161523")
+		(property "Reference" "C17"
+			(at 212.09 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 212.09 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 209.2452 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 208.28 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "398fd682-ee5c-4bbf-a510-6115d619dd7b")
+		)
+		(pin "2"
+			(uuid "e1008e60-9543-473c-ab63-a226b863426e")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "C82")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "C61")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "C17")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 264.16 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57f2bd58-86de-4c39-8fa5-3f891841c936")
+		(property "Reference" "C7"
+			(at 267.97 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 267.97 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 265.1252 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 264.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e8c42ec-c1f5-4b7c-a48e-b0fd2c3818ad")
+		)
+		(pin "2"
+			(uuid "cc8a63e8-7b23-407c-941a-69befc75f497")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "C72")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "C51")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "C7")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 99.06 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "589ae469-ce4f-41b6-8cf2-24aeaf16274b")
+		(property "Reference" "#PWR0116"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4deb944-aa1f-44e3-a613-f6d370dea1d3")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "#PWR059")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -4185,39 +6195,39 @@
 			)
 		)
 		(pin "5"
-			(uuid "176e91ab-8629-4e59-92dc-a875d68f6cbd")
+			(uuid "3021a9a5-f7e8-453c-948c-54dfcb7cd724")
 		)
 		(pin "1"
-			(uuid "4e95007f-32e4-4b9b-ba32-9905319be599")
+			(uuid "b1fd79a8-d308-442f-ae95-4688611df635")
 		)
 		(pin "2"
-			(uuid "2fed4243-8916-4084-b097-f880e4750957")
+			(uuid "f285a5b7-f52a-498b-ab63-ef26c4918fc9")
 		)
 		(pin "4"
-			(uuid "6eb139a1-3d2e-4e22-ba2d-73c0188da96c")
+			(uuid "5355322f-fea1-44e6-bd67-73a9154abf14")
 		)
 		(pin "3"
-			(uuid "4fba407f-59e4-4734-83c0-a1fc2454ee07")
+			(uuid "c43ecc2e-f9d8-42dd-b195-5083ac1c57f4")
 		)
 		(pin "6"
-			(uuid "ac2b62b1-a5b4-4f5c-9b44-248aff9d132e")
+			(uuid "1cdeff53-a147-4c91-ab6a-b74bd70b560f")
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
-					(reference "D52")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "D77")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "D56")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
 					(reference "D12")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
-					(reference "D29")
-					(unit 1)
-				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "D115")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -4225,7 +6235,7 @@
 	)
 	(symbol
 		(lib_id "Graphic:SYM_Arrow_Small")
-		(at 229.87 29.21 0)
+		(at 63.5 166.37 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -4233,8 +6243,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d6cc7c9-5bf5-4dce-9913-b1eefca16e12")
-		(property "Reference" "#SYM?"
-			(at 229.87 27.686 0)
+		(property "Reference" "#SYM31"
+			(at 63.5 164.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4243,7 +6253,7 @@
 			)
 		)
 		(property "Value" "SYM_Arrow_Small"
-			(at 230.124 30.48 0)
+			(at 63.754 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4252,7 +6262,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 29.21 0)
+			(at 63.5 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,7 +6271,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 29.21 0)
+			(at 63.5 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4270,7 +6280,7 @@
 			)
 		)
 		(property "Description" "Filled arrow, 160mil"
-			(at 229.87 29.21 0)
+			(at 63.5 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4280,20 +6290,20 @@
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
 					(reference "#SYM22")
 					(unit 1)
 				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "#SYM13")
+					(unit 1)
+				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
-					(reference "#SYM?")
+					(reference "#SYM31")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
 					(reference "#SYM4")
-					(unit 1)
-				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "#SYM49")
 					(unit 1)
 				)
 			)
@@ -4366,39 +6376,39 @@
 			)
 		)
 		(pin "5"
-			(uuid "f1ffd5f5-877b-4b48-921c-f45530cb670b")
+			(uuid "7daf0528-ddee-49fa-af52-19dfdd0a2924")
 		)
 		(pin "1"
-			(uuid "894b0b4c-d68c-4a17-87c1-4b2fbe63a67d")
+			(uuid "cb16f6b3-4cee-4607-866b-d39ba6f73b82")
 		)
 		(pin "2"
-			(uuid "16ae0476-9822-419c-a263-8493112abd61")
+			(uuid "28bf85c0-80df-4684-a57a-7cfeae4de61c")
 		)
 		(pin "4"
-			(uuid "a1c15de5-3e00-4081-8d93-5b707457ca58")
+			(uuid "59046bd5-25c9-4dc5-9583-2bbd97e0ea04")
 		)
 		(pin "3"
-			(uuid "2de88636-947c-4e59-87e5-45c32e0c91a2")
+			(uuid "e81b6d70-237e-41fe-a7ca-8445dde1d085")
 		)
 		(pin "6"
-			(uuid "2559002a-f573-4f70-9889-7c41d49e2e65")
+			(uuid "d32b6fd2-5a02-4d99-a5b3-e39f21732b51")
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
-					(reference "D63")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "D72")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "D51")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
 					(reference "D7")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
-					(reference "D40")
-					(unit 1)
-				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "D126")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -4406,7 +6416,7 @@
 	)
 	(symbol
 		(lib_id "Graphic:SYM_Arrow_Small")
-		(at 238.76 41.91 0)
+		(at 72.39 179.07 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -4414,8 +6424,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6940f674-0ec9-43e3-a850-27a2135322a3")
-		(property "Reference" "#SYM?"
-			(at 238.76 40.386 0)
+		(property "Reference" "#SYM36"
+			(at 72.39 177.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4424,7 +6434,7 @@
 			)
 		)
 		(property "Value" "SYM_Arrow_Small"
-			(at 239.014 43.18 0)
+			(at 72.644 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4433,7 +6443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 41.91 0)
+			(at 72.39 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4442,7 +6452,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 41.91 0)
+			(at 72.39 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4451,7 +6461,7 @@
 			)
 		)
 		(property "Description" "Filled arrow, 160mil"
-			(at 238.76 41.91 0)
+			(at 72.39 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4461,20 +6471,102 @@
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
 					(reference "#SYM27")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
-					(reference "#SYM?")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "#SYM18")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "#SYM36")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
 					(reference "#SYM9")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "#SYM54")
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 194.31 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6991616e-3d0b-496e-8ad9-5214149fcd41")
+		(property "Reference" "C9"
+			(at 198.12 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 198.12 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 195.2752 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 194.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05815f05-7caa-4249-8f9c-6bf3f7dbc777")
+		)
+		(pin "2"
+			(uuid "c96cf6f0-6997-4de6-92b8-2916e14de8b0")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "C74")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "C53")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "C9")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -4547,39 +6639,39 @@
 			)
 		)
 		(pin "5"
-			(uuid "2d26c6de-662a-4d87-a976-2359013dafe1")
+			(uuid "3dc1a546-f059-490a-8542-17f1261ff12b")
 		)
 		(pin "1"
-			(uuid "97b169c2-435e-4331-8955-9194469738b9")
+			(uuid "ef284bea-952f-49ce-a212-8cee3ffad581")
 		)
 		(pin "2"
-			(uuid "d224370e-271b-41f8-b449-6e02637c9220")
+			(uuid "959c99cd-2729-44b1-8ea8-1d85c4f65bd5")
 		)
 		(pin "4"
-			(uuid "3e63b341-f81c-4a1e-b0f5-10c6c452257a")
+			(uuid "ce7021af-ee23-491b-9a74-ed6187d14588")
 		)
 		(pin "3"
-			(uuid "f29aae7d-1e83-487c-9ee4-933a3ed91394")
+			(uuid "33eace98-146c-4745-8cc5-eb481feace63")
 		)
 		(pin "6"
-			(uuid "5b75d647-7249-4dd8-a6eb-c43ec3d83798")
+			(uuid "d27ca8d7-14e5-407c-a262-a274f0e655c9")
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
-					(reference "D47")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "D80")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "D59")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
 					(reference "D15")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
-					(reference "D24")
-					(unit 1)
-				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "D110")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -4652,39 +6744,200 @@
 			)
 		)
 		(pin "5"
-			(uuid "8fa15bf0-7a0d-498c-ad59-f37fd21767d5")
+			(uuid "b4e74918-aa0f-44c9-8f2d-6dafacf0326c")
 		)
 		(pin "1"
-			(uuid "1d426b14-cfd8-4437-8b63-14e7e2efc75c")
+			(uuid "49cfaa90-63e9-4f3a-a768-4279432579fc")
 		)
 		(pin "2"
-			(uuid "a19e701c-7300-4008-8701-a6761f43a63b")
+			(uuid "cfd60f33-b2c5-4c8a-9cbb-9b211251f66a")
 		)
 		(pin "4"
-			(uuid "40eac6a5-5821-4b16-8cb9-fecf8dab4660")
+			(uuid "eb0d660f-614e-4ef8-b6ae-db28016e664b")
 		)
 		(pin "3"
-			(uuid "626b4de3-fcc4-44f0-b00e-970e6b03a94e")
+			(uuid "e9ba82cd-b20e-4698-bdb3-bff9e9fd6fce")
 		)
 		(pin "6"
-			(uuid "44b49266-2000-4f2a-84de-526e7662f7e6")
+			(uuid "c492b2c6-b2b3-487b-8359-07e5254aa5a2")
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
-					(reference "D54")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "D69")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "D48")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
 					(reference "D4")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
-					(reference "D31")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "D25")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "D117")
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 236.22 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77ff7690-cbb2-4314-816e-c1a540d8d861")
+		(property "Reference" "C12"
+			(at 240.03 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 240.03 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 237.1852 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 236.22 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88f03d93-6278-40db-9d11-2dd85a63bceb")
+		)
+		(pin "2"
+			(uuid "bcf21346-a471-488b-b4da-d8ca8e1667b3")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "C77")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "C56")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "C12")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 180.34 33.02 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7985be16-80fe-4810-87b8-84ecd85e8176")
+		(property "Reference" "#PWR0115"
+			(at 180.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 180.34 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 180.34 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81d39c18-17aa-494b-975c-0d48f1bda1e0")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "#PWR056")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "#PWR042")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -4757,26 +7010,30 @@
 			)
 		)
 		(pin "5"
-			(uuid "efcfbab9-6946-4acd-b5b1-fd2c65066b39")
+			(uuid "e3b2a010-1570-4ae5-b760-89fe326af87a")
 		)
 		(pin "1"
-			(uuid "aa5ded63-11f8-492a-be6a-959e254f24a6")
+			(uuid "1852247b-5831-4d88-a709-2917ce074f10")
 		)
 		(pin "2"
-			(uuid "9ce349a0-290d-45e0-8b79-5414540f6531")
+			(uuid "1446731e-4b7c-4fab-bb66-0439fa4d0c6c")
 		)
 		(pin "4"
-			(uuid "0ba6f6bb-2199-4977-8545-32583ae0a60f")
+			(uuid "c6f6f44f-3d89-4cbf-b527-7163a08aafd3")
 		)
 		(pin "3"
-			(uuid "206f730c-ce67-4f48-9d2c-fddc80060c33")
+			(uuid "99ed3bca-9890-47be-864e-401e2dadbc88")
 		)
 		(pin "6"
-			(uuid "3f35cab0-6307-4748-a15b-2f4fb1942d18")
+			(uuid "286d088c-6775-411b-85d3-608981c26457")
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "D86")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
 					(reference "D65")
 					(unit 1)
 				)
@@ -4784,12 +7041,251 @@
 					(reference "D21")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
 					(reference "D42")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "D128")
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 222.25 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85c10cd0-fff6-45e5-a796-cade3c25091f")
+		(property "Reference" "C4"
+			(at 226.06 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 226.06 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 223.2152 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 222.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a65ab71d-e5ad-43f7-8da2-3d2e5437b7c4")
+		)
+		(pin "2"
+			(uuid "5ffd7e1b-1260-4f84-8ab3-f185910e06d4")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "C69")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "C48")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "C4")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 264.16 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8883a2d0-e614-4b45-9e4b-0ba68caf04e1")
+		(property "Reference" "C14"
+			(at 267.97 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 267.97 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 265.1252 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 264.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37aecd2b-04d3-4bcb-a5a6-a0c606c695cf")
+		)
+		(pin "2"
+			(uuid "20d323d9-f903-4ad5-a2e6-6c322f076ee3")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "C79")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "C58")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "C14")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90a2a510-c170-4b57-a5a0-9c8d7d480818")
+		(property "Reference" "#PWR0114"
+			(at 180.34 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aefea3c8-64f0-4355-a4e0-ac7dd93f3efd")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "#PWR057")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -4863,39 +7359,39 @@
 			)
 		)
 		(pin "5"
-			(uuid "01fd7e51-17d3-46ec-af11-dab5868b7f59")
+			(uuid "a5213026-1dff-4f5f-8964-24b54208bbdc")
 		)
 		(pin "1"
-			(uuid "7258ce45-5224-4c5a-aa6b-2eec7e8390ab")
+			(uuid "f196768a-0e52-4504-aa20-44c535594b90")
 		)
 		(pin "2"
-			(uuid "9bbd2bfd-6c37-4472-91be-a43caf55457d")
+			(uuid "265688a2-4a3f-4855-927e-8244fd4fd1af")
 		)
 		(pin "4"
-			(uuid "0d099ee3-841e-439b-b312-2a54c1072daa")
+			(uuid "2f39a362-b14c-4fc6-9030-08f28602c271")
 		)
 		(pin "3"
-			(uuid "01d65abd-2b67-478f-88cc-96174763d5a5")
+			(uuid "724c3b5e-c978-4e44-8359-5d2026442919")
 		)
 		(pin "6"
-			(uuid "77aa7b47-217c-4370-9dc2-bce86f5cfe16")
+			(uuid "8b21d990-8456-41ec-aa13-82ec65ef8d56")
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
-					(reference "D49")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "D78")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "D57")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
 					(reference "D13")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
-					(reference "D26")
-					(unit 1)
-				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "D112")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -4903,7 +7399,7 @@
 	)
 	(symbol
 		(lib_id "Graphic:SYM_Arrow_Small")
-		(at 236.22 48.26 90)
+		(at 69.85 185.42 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -4911,8 +7407,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93476bae-5f65-4f33-8845-3eeb9ca98e5e")
-		(property "Reference" "#SYM?"
-			(at 234.696 48.26 0)
+		(property "Reference" "#SYM35"
+			(at 68.326 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4921,7 +7417,7 @@
 			)
 		)
 		(property "Value" "SYM_Arrow_Small"
-			(at 237.49 48.006 0)
+			(at 71.12 185.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4930,7 +7426,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 48.26 0)
+			(at 69.85 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4939,7 +7435,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 48.26 0)
+			(at 69.85 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4948,7 +7444,7 @@
 			)
 		)
 		(property "Description" "Filled arrow, 160mil"
-			(at 236.22 48.26 0)
+			(at 69.85 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4958,20 +7454,20 @@
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
 					(reference "#SYM26")
 					(unit 1)
 				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "#SYM17")
+					(unit 1)
+				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
-					(reference "#SYM?")
+					(reference "#SYM35")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
 					(reference "#SYM8")
-					(unit 1)
-				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "#SYM53")
 					(unit 1)
 				)
 			)
@@ -5044,39 +7540,203 @@
 			)
 		)
 		(pin "5"
-			(uuid "554c56b2-e4c6-404e-8ff7-5d3ec5723058")
+			(uuid "9402e62a-08e1-4f02-872d-1c0ba7ee64e3")
 		)
 		(pin "1"
-			(uuid "4a8fdd2d-1adf-44bd-9532-9c34f4226723")
+			(uuid "1889537c-9c0f-4873-b5a7-c2c75e1c1a1b")
 		)
 		(pin "2"
-			(uuid "47d6d74b-e444-4b4b-88eb-462c5fbe3067")
+			(uuid "816f9ccb-cb96-43cb-8b88-44cdb1383a99")
 		)
 		(pin "4"
-			(uuid "31b2b894-0b8d-4201-b7ba-7e464026595a")
+			(uuid "6d020ae8-b3f8-4b51-bebd-f0ad9ffa2d81")
 		)
 		(pin "3"
-			(uuid "2fddb9eb-a3bf-4304-be2f-f326a9196475")
+			(uuid "157bb0d5-09fe-4b62-a328-697e6f8c8463")
 		)
 		(pin "6"
-			(uuid "aa328d87-1b93-4c86-9af9-b075851e97a1")
+			(uuid "ef2c5da5-f063-46e0-9233-f561746283d0")
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
-					(reference "D59")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "D84")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "D63")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
 					(reference "D19")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
-					(reference "D36")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "D40")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "D122")
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 236.22 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fe16dfb-a2e8-41aa-acce-f51ab0cdc84e")
+		(property "Reference" "C5"
+			(at 240.03 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 240.03 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 237.1852 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 236.22 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b951deb-587d-4d63-a670-4c4011fd3b0e")
+		)
+		(pin "2"
+			(uuid "1b18d5bb-f85e-46c5-9678-95c16a704c39")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "C70")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "C49")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "C5")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 180.34 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2fa5cf8-034b-4405-a508-a3163003f2c4")
+		(property "Reference" "C15"
+			(at 184.15 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 184.15 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 181.3052 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 180.34 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47ace805-0149-4411-8a3c-c98fd80694f7")
+		)
+		(pin "2"
+			(uuid "0e22f166-70f4-440a-8847-3f0ff2db2372")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "C80")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "C59")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "C15")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -5137,59 +7797,59 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b466c29-6f9a-4ebc-a4c1-da71693f9252")
+			(uuid "ad6d511a-a1e9-49df-af38-01f34b8e9b29")
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
-					(reference "#PWR019")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "#PWR054")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "#PWR040")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
 					(reference "#PWR05")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
-					(reference "#PWR013")
-					(unit 1)
-				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "#PWR037")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Graphic:SYM_Arrow_Small")
-		(at 229.87 54.61 0)
+		(lib_id "Device:C")
+		(at 194.31 41.91 0)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b895fb92-025b-4f00-9df8-c2a11ee6c34d")
-		(property "Reference" "#SYM?"
-			(at 229.87 53.086 0)
+		(uuid "aca501cd-798c-46b0-ae2a-504bde7b679d")
+		(property "Reference" "C2"
+			(at 198.12 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "SYM_Arrow_Small"
-			(at 230.124 55.88 0)
+		(property "Value" "100nF"
+			(at 198.12 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 229.87 54.61 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 195.2752 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5198,7 +7858,171 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 54.61 0)
+			(at 194.31 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 194.31 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8afc6090-861d-455d-a473-62fea70fa7bc")
+		)
+		(pin "2"
+			(uuid "4b8c1903-cd6e-479b-9464-5aebc4b8b06e")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "C67")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "C46")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "C2")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 250.19 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af9611bc-d051-42dc-abcd-6aa546024e39")
+		(property "Reference" "C6"
+			(at 254 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 254 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 251.1552 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 250.19 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "098e7abe-c431-4222-91ec-f93d6906a2aa")
+		)
+		(pin "2"
+			(uuid "c2a5fe59-d26a-4b6d-a52d-0507fe79e6d7")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "C71")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "C50")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "C6")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_Small")
+		(at 63.5 191.77 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b895fb92-025b-4f00-9df8-c2a11ee6c34d")
+		(property "Reference" "#SYM33"
+			(at 63.5 190.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Arrow_Small"
+			(at 63.754 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5207,7 +8031,7 @@
 			)
 		)
 		(property "Description" "Filled arrow, 160mil"
-			(at 229.87 54.61 0)
+			(at 63.5 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5217,20 +8041,99 @@
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
 					(reference "#SYM24")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
-					(reference "#SYM?")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "#SYM15")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "#SYM33")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
 					(reference "#SYM6")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "#SYM51")
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 147.32 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb431343-9361-4252-b4e2-c8a9795223eb")
+		(property "Reference" "#PWR047"
+			(at 180.34 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c53c847-0ef1-4620-88ca-fa898f28d244")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "#PWR061")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "#PWR049")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "#PWR047")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -5303,39 +8206,39 @@
 			)
 		)
 		(pin "5"
-			(uuid "410e8916-4876-44ca-9a28-9ecb94b4ff44")
+			(uuid "193eec43-2a0f-41d6-9ec3-9d8992200804")
 		)
 		(pin "1"
-			(uuid "6f671715-7623-40d0-93f5-406bbfd06f75")
+			(uuid "539db046-adfd-41af-9834-84c895deb871")
 		)
 		(pin "2"
-			(uuid "91e093e5-36bc-4a47-9e26-df657a479717")
+			(uuid "526a80db-bbee-44f2-84c6-1bcdcd780c3a")
 		)
 		(pin "4"
-			(uuid "1049b246-deb9-4ed5-81f6-c44a552570dd")
+			(uuid "eda3ffdc-093b-41bc-bd4b-9878587d0acd")
 		)
 		(pin "3"
-			(uuid "46417c60-c3cf-4506-8133-c8f78029f823")
+			(uuid "38bff325-a104-4fa4-81df-c9f0c78f60e1")
 		)
 		(pin "6"
-			(uuid "72cbef06-b80d-4a4a-82d2-2ce0bbd52234")
+			(uuid "d320f5d3-26be-4793-8c23-2185f67f7638")
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
-					(reference "D48")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "D67")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "D46")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
 					(reference "D2")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
-					(reference "D25")
-					(unit 1)
-				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "D111")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -5397,24 +8300,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "e507f8e5-01a0-4d9b-b60d-a849c01b9dae")
+			(uuid "73e96004-f38f-4c34-8904-1b3116a9e476")
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
-					(reference "#PWR018")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "#PWR053")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "#PWR039")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
 					(reference "#PWR04")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
-					(reference "#PWR012")
-					(unit 1)
-				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "#PWR036")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5423,7 +8326,7 @@
 	(symbol
 		(lib_name "SYM_Arrow_Small_1")
 		(lib_id "Graphic:SYM_Arrow_Small")
-		(at 223.52 48.26 270)
+		(at 57.15 185.42 270)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5431,8 +8334,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf1d2ede-50d3-40b5-b2da-e25c4c5bf6be")
-		(property "Reference" "#SYM?"
-			(at 225.044 48.26 0)
+		(property "Reference" "#SYM30"
+			(at 58.674 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5441,7 +8344,7 @@
 			)
 		)
 		(property "Value" "SYM_Arrow_Small"
-			(at 222.25 48.514 0)
+			(at 55.88 185.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5450,7 +8353,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 48.26 0)
+			(at 57.15 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5459,7 +8362,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 48.26 0)
+			(at 57.15 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5468,7 +8371,7 @@
 			)
 		)
 		(property "Description" "Filled arrow, 160mil"
-			(at 223.52 48.26 0)
+			(at 57.15 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5478,20 +8381,184 @@
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
 					(reference "#SYM21")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
-					(reference "#SYM?")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "#SYM12")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "#SYM30")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
 					(reference "#SYM3")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "#SYM48")
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 264.16 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c998373d-7da5-47e2-a519-78baf1f662f0")
+		(property "Reference" "C21"
+			(at 267.97 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 267.97 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 265.1252 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 264.16 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0637c931-a04c-47ce-a10d-25b6eddcf79c")
+		)
+		(pin "2"
+			(uuid "6c163e8f-877e-4864-823e-22757fe05772")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "C86")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "C65")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "C21")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 236.22 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb018e3c-a4e3-4c09-a1c7-dfff6eaf46f7")
+		(property "Reference" "C19"
+			(at 240.03 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 240.03 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 237.1852 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 236.22 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aada8881-497c-4474-896c-fa7bcb3f57e5")
+		)
+		(pin "2"
+			(uuid "ed7c5e93-01ce-45d3-9abe-26ab8caf73ba")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "C84")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "C63")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "C19")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -5507,7 +8574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d142c21a-b7a8-42ac-848a-c1256007127c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0101"
 			(at 44.45 66.04 0)
 			(effects
 				(font
@@ -5552,24 +8619,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "1dbdf440-0518-4983-8c41-dc6d5dea325b")
+			(uuid "7582c01d-1f33-4260-a490-00a452d7f813")
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
-					(reference "#PWR016")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "#PWR051")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "#PWR037")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
-					(reference "#PWR?")
+					(reference "#PWR0101")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
-					(reference "#PWR010")
-					(unit 1)
-				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "#PWR034")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -5643,39 +8710,285 @@
 			)
 		)
 		(pin "5"
-			(uuid "fb16089a-3d87-458d-97dc-c91c15f3148b")
+			(uuid "dfa2f036-0e56-4cf9-bd9e-b4e963dfe1fb")
 		)
 		(pin "1"
-			(uuid "84087e12-a570-4b97-9665-28e7da93ad06")
+			(uuid "f6c73020-0c98-49e0-9636-e54ddcfa0486")
 		)
 		(pin "2"
-			(uuid "4f57c1e1-a64c-4c40-a4c0-cb5c165e92e9")
+			(uuid "0c8f0ebd-b78d-41b5-8fa4-f147d1e1bd7f")
 		)
 		(pin "4"
-			(uuid "3693c8ce-965c-43cb-a6e9-ff75d367151e")
+			(uuid "b3ddd314-66f6-40bb-8add-3252b17b4978")
 		)
 		(pin "3"
-			(uuid "09d53201-b931-418c-8a28-b71999f4fe2e")
+			(uuid "97cafb12-ebfd-42e4-8f46-d03a5c850399")
 		)
 		(pin "6"
-			(uuid "46b6e562-f0a3-4310-9763-77accbf92092")
+			(uuid "56987fc8-ffd8-4ecc-a492-0f92a15a5470")
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
-					(reference "D46")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "D79")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "D58")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
 					(reference "D14")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
-					(reference "D23")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "D35")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "D109")
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 208.28 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d851d5b3-a67c-4244-a5b3-a974f9e69151")
+		(property "Reference" "C10"
+			(at 212.09 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 212.09 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 209.2452 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 208.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8562098e-0e02-46aa-98e8-0977523f6be1")
+		)
+		(pin "2"
+			(uuid "2ed55002-56fa-4721-8297-849195137bba")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "C75")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "C54")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "C10")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 250.19 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d87d8da0-7303-4661-82a1-2c5bd5c43cea")
+		(property "Reference" "C13"
+			(at 254 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 254 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 251.1552 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 250.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36f0feaf-b9eb-4584-a460-e26b579e6d6c")
+		)
+		(pin "2"
+			(uuid "bae0e76b-79c5-4911-bd5f-8d7ae8cb1396")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "C78")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "C57")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "C13")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 222.25 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da649650-4e9d-4e83-8631-ddd8e9dc2666")
+		(property "Reference" "C18"
+			(at 226.06 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 226.06 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 223.2152 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 222.25 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc4f75d6-48a7-469b-af37-45e76b2479e4")
+		)
+		(pin "2"
+			(uuid "60fa1eba-0ef7-47a1-9e5c-78652433f435")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "C83")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "C62")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "C18")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -5736,24 +9049,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "5188115f-4eff-4326-a969-5bc7fce5b767")
+			(uuid "592b75c4-fd61-4334-a6e8-032f3b43d71d")
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
-					(reference "#PWR020")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "#PWR055")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "#PWR041")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
 					(reference "#PWR06")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
-					(reference "#PWR014")
-					(unit 1)
-				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "#PWR038")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5826,39 +9139,121 @@
 			)
 		)
 		(pin "5"
-			(uuid "eebc1e38-b0e5-459b-8f50-83b20108ec7c")
+			(uuid "6010fb81-05bc-4611-8e5c-b7edfc3142ee")
 		)
 		(pin "1"
-			(uuid "4dde48bf-2fe5-46e5-a0a4-a88ce798c39c")
+			(uuid "d1ab9a8c-e320-46e7-b8fe-ba7e4eb50962")
 		)
 		(pin "2"
-			(uuid "36b99330-450d-4e05-b6e8-6d78c0387c2f")
+			(uuid "86746eb4-5183-4204-ab25-29f72c7798fc")
 		)
 		(pin "4"
-			(uuid "1030c618-ed8c-4061-89b0-8709a1b3af8f")
+			(uuid "8adc6957-3731-409c-896d-2418a8cf4146")
 		)
 		(pin "3"
-			(uuid "041b6ecf-4eae-4764-b109-2ef524b844d8")
+			(uuid "745e2ada-70de-42e5-ad4b-c391bfc55c3f")
 		)
 		(pin "6"
-			(uuid "796cef04-0ed7-4572-b7d1-f61c9ed07c71")
+			(uuid "09dc8b1b-0709-4837-9130-1212445004a9")
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
-					(reference "D60")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "D71")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "D50")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
 					(reference "D6")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
-					(reference "D37")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "D27")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "D123")
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 208.28 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed7c6037-64f5-4898-a5cf-7459846d4517")
+		(property "Reference" "C3"
+			(at 212.09 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 212.09 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 209.2452 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 208.28 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "724ed772-cd7d-4c6f-8c8d-5778db756cc5")
+		)
+		(pin "2"
+			(uuid "f8166baf-dd00-4d65-b0e0-7116b50f8662")
+		)
+		(instances
+			(project "Bedside_Clock"
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "C68")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "C47")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
+					(reference "C3")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -5932,39 +9327,39 @@
 			)
 		)
 		(pin "5"
-			(uuid "69eae3ee-d065-4d9a-ac38-77d83cebb1d6")
+			(uuid "0711d580-8aa1-46a1-8c85-3d803ca11d75")
 		)
 		(pin "1"
-			(uuid "e915a9dc-065f-4bf7-b820-f6c5f89ef968")
+			(uuid "5d9e06b9-36f0-461f-afa3-500cb605c95c")
 		)
 		(pin "2"
-			(uuid "2617f996-4c8b-4a7f-90df-cacb0029f111")
+			(uuid "d9c9c115-d520-4e78-b885-5e75324503cf")
 		)
 		(pin "4"
-			(uuid "a08073e6-4c10-4939-9a35-554b2c757902")
+			(uuid "9a62bbed-442a-4cb3-90aa-c70a7c4d9af4")
 		)
 		(pin "3"
-			(uuid "806b3685-4faa-49d1-8cfb-e3b0d211128a")
+			(uuid "155e39ae-4cb0-4c0e-8541-c94409bca672")
 		)
 		(pin "6"
-			(uuid "a1472fb5-6370-4bc6-8cf6-4415fdb2af15")
+			(uuid "4e455063-3503-457a-8e32-e0e1700e64ea")
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
-					(reference "D61")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "D74")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "D53")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
 					(reference "D9")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
-					(reference "D38")
-					(unit 1)
-				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "D124")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -6038,39 +9433,39 @@
 			)
 		)
 		(pin "5"
-			(uuid "fa2f084b-753d-461a-9900-4a5d1a839c0b")
+			(uuid "4ae6ec55-c8ad-4c26-b55e-7d2ee8eb6cd0")
 		)
 		(pin "1"
-			(uuid "d9b66ea4-b650-46ed-8604-61204dbe8ded")
+			(uuid "944c91c9-e78d-4c08-b41a-45ba66820e6e")
 		)
 		(pin "2"
-			(uuid "6a5bfed8-31e2-4158-a99a-12ead6a13030")
+			(uuid "60283813-2130-4f10-880e-c544de15fffd")
 		)
 		(pin "4"
-			(uuid "a80aa443-83db-44bc-a0cf-1d5441baf054")
+			(uuid "4cb8ec36-ffd1-4dfa-9af7-0bb4f8c11c87")
 		)
 		(pin "3"
-			(uuid "58669b42-e365-41b1-b525-70fefffce0d1")
+			(uuid "39505dce-95df-4859-ae63-890c70a0b1ba")
 		)
 		(pin "6"
-			(uuid "287a98f7-33e2-450d-b757-d06c607d11c7")
+			(uuid "75192dd2-0af4-4ff0-9243-6294b8131a93")
 		)
 		(instances
 			(project "Bedside_Clock"
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/4b740721-7c84-4087-9c4a-8a3ad20cbd45"
-					(reference "D58")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/2ffb0741-66d5-4c9a-addb-dba5db0c418b"
+					(reference "D75")
+					(unit 1)
+				)
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/5817fd7d-f749-46a9-90a8-87474558632c"
+					(reference "D54")
 					(unit 1)
 				)
 				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9196777c-9c3c-41fc-8d5b-d00cb68492f9"
 					(reference "D10")
 					(unit 1)
 				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/9a1c5fa4-3f7f-4fb2-b705-20d6c8f317cf"
-					(reference "D35")
-					(unit 1)
-				)
-				(path "/285fe965-0a63-4ad6-a822-0768efad7217/cde2134a-938c-4669-be9a-f38077af9085"
-					(reference "D121")
+				(path "/285fe965-0a63-4ad6-a822-0768efad7217/96609a9b-54f9-43f2-b3e1-1ce5fd415c55"
+					(reference "D31")
 					(unit 1)
 				)
 			)
