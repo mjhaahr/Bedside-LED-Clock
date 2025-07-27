@@ -194,28 +194,28 @@
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
-          "corner_radius_percentage": 80,
+          "corner_radius_percentage": 60,
           "corner_style": 0,
-          "max_amplitude": 1.0,
+          "max_amplitude": 0.6,
           "min_amplitude": 0.2,
           "single_sided": false,
-          "spacing": 1.0
+          "spacing": 0.5
         },
         "diff_pair_skew_defaults": {
-          "corner_radius_percentage": 80,
+          "corner_radius_percentage": 60,
           "corner_style": 0,
-          "max_amplitude": 1.0,
+          "max_amplitude": 0.6,
           "min_amplitude": 0.2,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.5
         },
         "single_track_defaults": {
-          "corner_radius_percentage": 80,
+          "corner_radius_percentage": 60,
           "corner_style": 0,
-          "max_amplitude": 1.0,
+          "max_amplitude": 0.6,
           "min_amplitude": 0.2,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.5
         }
       },
       "via_dimensions": [
@@ -502,7 +502,7 @@
         "line_style": 0,
         "name": "3V3",
         "pcb_color": "rgb(221, 133, 0)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(221, 133, 0)",
         "track_width": 0.4,
         "via_diameter": 0.6,
@@ -514,7 +514,7 @@
         "line_style": 0,
         "name": "5V",
         "pcb_color": "rgb(194, 0, 0)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(194, 0, 0)",
         "track_width": 0.6,
         "via_diameter": 0.6,
@@ -526,7 +526,7 @@
         "line_style": 0,
         "name": "Clock",
         "pcb_color": "rgb(194, 0, 194)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(194, 0, 194)",
         "track_width": 0.2,
         "via_diameter": 0.4,
@@ -538,7 +538,7 @@
         "line_style": 0,
         "name": "Data",
         "pcb_color": "rgb(0, 194, 194)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(0, 194, 194)",
         "track_width": 0.2,
         "via_diameter": 0.4,
@@ -550,11 +550,25 @@
         "line_style": 0,
         "name": "GND",
         "pcb_color": "rgb(72, 72, 72)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(72, 72, 72)",
         "track_width": 0.4,
         "via_diameter": 0.6,
         "via_drill": 0.3,
+        "wire_width": 8
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.18,
+        "diff_pair_width": 0.8,
+        "line_style": 0,
+        "name": "USB",
+        "pcb_color": "rgb(0, 0, 194)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 0, 194)",
+        "track_width": 0.2,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
         "wire_width": 8
       }
     ],
@@ -595,6 +609,10 @@
       {
         "netclass": "Clock",
         "pattern": "*CO)"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "*UD*"
       }
     ]
   },
