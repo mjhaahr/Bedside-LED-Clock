@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "USBLC6_2SC6")(type "KiCad")(uri "${KIPRJMOD}/parts/USBLC6_2SC6")(options "")(descr ""))
   (lib (name "USB4520_03_0_A")(type "KiCad")(uri "${KIPRJMOD}/parts/USB4520_03_0_A")(options "")(descr ""))
+  (lib (name "VEML7700_TT")(type "KiCad")(uri "${KIPRJMOD}/parts/VEML7700_TT")(options "")(descr ""))
+  (lib (name "SN74LVC2T45DCTR")(type "KiCad")(uri "${KIPRJMOD}/parts/SN74LVC2T45DCTR")(options "")(descr ""))
 )

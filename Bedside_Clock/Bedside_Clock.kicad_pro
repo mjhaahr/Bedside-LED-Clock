@@ -194,7 +194,7 @@
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
-          "corner_radius_percentage": 60,
+          "corner_radius_percentage": 55,
           "corner_style": 0,
           "max_amplitude": 0.6,
           "min_amplitude": 0.2,
@@ -613,6 +613,10 @@
       {
         "netclass": "USB",
         "pattern": "*UD*"
+      },
+      {
+        "netclass": "Clock",
+        "pattern": "*CO_5"
       }
     ]
   },
