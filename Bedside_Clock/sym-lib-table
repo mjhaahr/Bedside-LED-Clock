@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "USB4520-03-0-A_REVA")(type "KiCad")(uri "${KIPRJMOD}/parts/USB4520_03_0_A/USB4520-03-0-A_REVA.kicad_sym")(options "")(descr ""))
   (lib (name "VCNL4040M3OE")(type "KiCad")(uri "${KIPRJMOD}/parts/VCNL4040M3OE/VCNL4040M3OE.kicad_sym")(options "")(descr ""))
+  (lib (name "TL6330AF200Q")(type "KiCad")(uri "${KIPRJMOD}/parts/TL6330AF200Q/TL6330AF200Q.kicad_sym")(options "")(descr ""))
+  (lib (name "WL-SMCD_0603")(type "KiCad")(uri "${KIPRJMOD}/parts/150060VS55040/WL-SMCD_0603.kicad_sym")(options "")(descr ""))
 )

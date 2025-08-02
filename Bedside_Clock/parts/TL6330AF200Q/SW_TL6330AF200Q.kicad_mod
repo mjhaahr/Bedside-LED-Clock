@@ -1,0 +1,213 @@
+(footprint "SW_TL6330AF200Q"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.4 0)
+		(layer "F.Fab")
+		(uuid "da6b6aec-7c51-4713-afb3-ba91d6f4205d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_TL6330AF200Q"
+		(at 0 2.4 0)
+		(layer "F.SilkS")
+		(uuid "8c733a2d-23b6-4f6d-92e1-0ace5330a107")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "120beb36-a027-4c1b-8489-45f3ee984279")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fefc1155-2b61-4a11-9a2c-08d73ad82962")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.3 -0.1)
+		(end -2.3 0.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8caa5bc6-a24e-444d-b2df-b2563d9edcde")
+	)
+	(fp_line
+		(start -1.2865 -1.4)
+		(end 1.2865 -1.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cbd14b63-5cbe-4c42-8084-c05aeb9edf42")
+	)
+	(fp_line
+		(start -1.2865 1.4)
+		(end 1.2865 1.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "864be5c0-6a17-4dae-8144-a8ec77fa0074")
+	)
+	(fp_line
+		(start 2.3 -0.1)
+		(end 2.3 0.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "be60d0e6-1461-4a5b-aa1d-a6ff7066bfd1")
+	)
+	(fp_line
+		(start -2.75 -1.65)
+		(end 2.75 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f2bf3b95-7ea3-44f1-91fe-86c77333c2a9")
+	)
+	(fp_line
+		(start -2.75 1.65)
+		(end -2.75 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e1d278be-73d0-4145-bbd7-190817b74d60")
+	)
+	(fp_line
+		(start 2.75 -1.65)
+		(end 2.75 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a155a840-5c28-40f0-9b3e-74e16d88de0c")
+	)
+	(fp_line
+		(start 2.75 1.65)
+		(end -2.75 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "728e2296-ca55-40fa-aaf6-e9d082d1ef81")
+	)
+	(fp_line
+		(start -2.3 -1.4)
+		(end 2.3 -1.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7dadbe6d-e987-4028-87e6-9e43ead7695c")
+	)
+	(fp_line
+		(start -2.3 1.4)
+		(end -2.3 -1.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "37e1ae38-689d-42cb-9a4b-08b4f3d0701b")
+	)
+	(fp_line
+		(start 2.3 -1.4)
+		(end 2.3 1.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8f442925-1282-4858-8ed8-1dbb27725aaf")
+	)
+	(fp_line
+		(start 2.3 1.4)
+		(end -2.3 1.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c5ec621d-0be4-4c85-ac6d-53ea553ea2ee")
+	)
+	(pad "1" smd rect
+		(at -2.05 0.8)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "860f53bf-fdfb-4634-9587-da7ef0b0b3e1")
+	)
+	(pad "2" smd rect
+		(at 2.05 0.8)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "2572ceab-b8e2-40be-8756-cde70cf85ba5")
+	)
+	(pad "3" smd rect
+		(at -2.05 -0.8)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "08b862e0-811b-4009-ae83-c05f1eed38f9")
+	)
+	(pad "4" smd rect
+		(at 2.05 -0.8)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "1f7f7064-5d84-40e2-9cf3-171390554e7c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/parts/TL6330AF200Q/TL6330AF200Q.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

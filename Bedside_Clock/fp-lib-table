@@ -4,4 +4,6 @@
   (lib (name "USB4520_03_0_A")(type "KiCad")(uri "${KIPRJMOD}/parts/USB4520_03_0_A")(options "")(descr ""))
   (lib (name "SN74LVC2T45DCTR")(type "KiCad")(uri "${KIPRJMOD}/parts/SN74LVC2T45DCTR")(options "")(descr ""))
   (lib (name "VCNL4040M3OE")(type "KiCad")(uri "${KIPRJMOD}/parts/VCNL4040M3OE")(options "")(descr ""))
+  (lib (name "TL6330AF200Q")(type "KiCad")(uri "${KIPRJMOD}/parts/TL6330AF200Q")(options "")(descr ""))
+  (lib (name "150060VS55040")(type "KiCad")(uri "${KIPRJMOD}/parts/150060VS55040")(options "")(descr ""))
 )
