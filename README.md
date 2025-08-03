@@ -78,7 +78,54 @@
     - Quantity: 4
     - [Datasheet](https://configured-product-images.s3.amazonaws.com/Datasheets/TL6330.pdf)
     - [DigiKey](https://www.digikey.com/en/products/detail/e-switch/TL6330AF200Q/8032037)
-
+- 100nF - Yageo 0603 Ceramic Capacitor
+    - Component: C1 - C86, C89, C91, C96, C98, C99
+    - Quantity: 13
+    - [DigiKey](https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R7BB104/302822)
+- 1µF - Yageo 0603 Ceramic Capacitor
+    - Component: C87, C92, C102
+    - Quantity: 3
+    - [DigiKey](https://www.digikey.com/en/products/detail/yageo/CC0603KRX5R8BB105/2833610)
+- 10µF - Yageo 0603 Ceramic Capacitor
+    - Component: C88, C90, C97
+    - Quantity: 3
+    - [DigiKey](https://www.digikey.com/en/products/detail/yageo/CC0603MRX5R6BB106/5195224)
+- 22pF - Yageo 0603 Ceramic Capacitor
+    - Component: C93, C94
+    - Quantity: 2
+    - [DigiKey](https://www.digikey.com/en/products/detail/yageo/CC0603JRNPO8BN220/5883592)
+- 2.2µF - Yageo 0603 Ceramic Capacitor
+    - Component: C100
+    - Quantity: 1
+    - [DigiKey](https://www.digikey.com/en/products/detail/yageo/CC0603KRX5R7BB225/5195192)
+- 4.7µF - Yageo 0603 Ceramic Capacitor
+    - Component: C101
+    - Quantity: 1
+    - [DigiKey](https://www.digikey.com/en/products/detail/yageo/CC0603KRX5R7BB475/5195193)
+- 5.1kΩ - Yageo 0603 SMD Resistor
+    - Component: R1, R2
+    - Quantity: 2
+    - [DigiKey](https://www.digikey.com/en/products/detail/yageo/RC0603FR-075K1L/727268)
+- 10kΩ - Yageo 0603 SMD Resistor
+    - Component: R3, R4, R8, R9
+    - Quantity: 4
+    - [DigiKey](https://www.digikey.com/en/products/detail/yageo/RC0603FR-1010KL/12756395)
+- 1.43kΩ - Yageo 0603 SMD Resistor
+    - Component: R5
+    - Quantity: 1
+    - [DigiKey](https://www.digikey.com/en/products/detail/yageo/RC0603FR-071K43L/726862)
+- 0Ω - Yageo 0603 SMD Resistor
+    - Component: R6, R7
+    - Quantity: 2
+    - [DigiKey](https://www.digikey.com/en/products/detail/yageo/RC0603JR-070RL/726675)
+- 3.3kΩ - Yageo 0603 SMD Resistor
+    - Component: R10, R11
+    - Quantity: 2
+    - [DigiKey](https://www.digikey.com/en/products/detail/yageo/RC0603FR-073K3L/727126)
+- 8.2kΩ - Yageo 0603 SMD Resistor
+    - Component: R12
+    - Quantity: 1
+    - [DigiKey](https://www.digikey.com/en/products/detail/yageo/RC0603FR-078K2L/727390)
 
 ## Case Design
 <!--  TODO: Case design needs to be updated  -->
