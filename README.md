@@ -11,7 +11,7 @@
 - Integrated Ambient Light and Proximity Sensor
     - Allows the clock to be used at night and stay idle unless desired
 - 86 Addressable RGB LEDs
-    - APA102-style (DotStar) control
+    - APA102-style (DotStar) 2-Wire Control with Global Dimmer and Clock
     - HD107S-5050
     
 ## Table Of Contents
