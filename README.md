@@ -1,6 +1,8 @@
 # RGB LED 7-Segment Bedside Clock with Ambient Light and Proximity Sensor
 
-<!-- ![Full Board Design Render](images/render.png) -->
+![Full Board Design Render - Front](images/front-render.png)
+
+![Full Board Design Render - Back](images/back-render.png)
 
 ## Features
 - USB C Port for Power, Comms, and Programming
@@ -21,7 +23,9 @@
 - [Code](#code)
 - [Extra Notes](#extra-notes)
 
-<!-- [Schematic](images/???) -->
+[Main Schematic](images/Bedside_Clock.svg)
+
+[Digit Schematic (Repeated 4x)](images/Bedside_Clock-Digit.svg)
 
 ## Bill of Materials
 <!--  
@@ -56,6 +60,26 @@
     - Quantity: 1
     - [Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/22056b.pdf)
     - [DigiKey](https://www.digikey.com/en/products/detail/microchip-technology/MCP1825ST-3302E-DB/1635518)
+- HD107S - APA102 Style Addressable RGB LED with Global Dimmer and Clock 
+    - Component: D1 - D86
+    - Quantity: 86
+    - [Datasheet](https://cdn.hackaday.io/files/1677667177700544/HD107S%20%20Pixel%20RGB%205050%20LED%20chip%20%20Specificaion%20V1.0.1.pdf)
+    - [LED Lighting Hut](https://www.ledlightinghut.com/hd107s-5050-rgb-led.html)
+- Würth Elektronik 150060VS55040 - Green Indicator LED (LED_BUILTIN)
+    - Component: D87
+    - Quantity: 1
+    - [Datasheet](https://www.we-online.com/components/products/datasheet/150060VS55040.pdf)
+    - [DigiKey](https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060VS55040/8557182)
+- GCT USB4520-03-0-A - Midmount USB 2.0 Type C Port
+    - Component: J1
+    - Quantity: 1
+    - [Datasheet](https://gct.co/files/specs/usb4520-spec.pdf)
+    - [DigiKey](https://www.digikey.com/en/products/detail/gct/USB4520-03-0-A/15283199)
+- E-Switch TL6330AF200Q - Tactile Normally Open Push Button 
+    - Component: SW1 - SW4
+    - Quantity: 4
+    - [Datasheet](https://configured-product-images.s3.amazonaws.com/Datasheets/TL6330.pdf)
+    - [DigiKey](https://www.digikey.com/en/products/detail/e-switch/TL6330AF200Q/8032037)
 
 
 ## Case Design
