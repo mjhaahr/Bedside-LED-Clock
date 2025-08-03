@@ -1,7 +1,6 @@
 # RGB LED 7-Segment Bedside Clock with Ambient Light and Proximity Sensor
 
 ![Full Board Design Render - Front](images/front-render.png)
-
 ![Full Board Design Render - Back](images/back-render.png)
 
 ## Features
@@ -23,9 +22,8 @@
 - [Code](#code)
 - [Extra Notes](#extra-notes)
 
-[Main Schematic](images/Bedside_Clock.svg)
-
-[Digit Schematic (Repeated 4x)](images/Bedside_Clock-Digit.svg)
+![Main Schematic](images/Bedside_Clock.svg)
+![Digit Schematic (Repeated 4x)](images/Bedside_Clock-Digit.svg)
 
 ## Bill of Materials
 <!--  
