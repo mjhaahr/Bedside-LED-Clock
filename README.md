@@ -126,6 +126,10 @@
     - Component: R12
     - Quantity: 1
     - [DigiKey](https://www.digikey.com/en/products/detail/yageo/RC0603FR-078K2L/727390)
+- 33Ω - Yageo 0603 SMD Resistor
+    - Component: R13 - R16
+    - Quantity: 4
+    - [DigiKey](https://www.digikey.com/en/products/detail/yageo/RC0603FR-0733RL/727158)
 
 ## Case Design
 <!--  TODO: Case design needs to be updated  -->
